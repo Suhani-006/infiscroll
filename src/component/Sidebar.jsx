@@ -28,7 +28,7 @@ function Sidebar() {
       style={{
         width: 270,
         marginRight: 10,
-        padding: '0px 0 0 0',
+        padding: '10px 0 0 0',
         borderRight: '1px solid #ececec',
         height: '100%',
         minHeight: '5%',

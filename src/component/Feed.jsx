@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import Post from './Post';
+import React, { useEffect, useState } from 'react';import Post from './Post';
 
 const dummyPosts = [
   {

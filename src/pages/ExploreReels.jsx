@@ -3,9 +3,11 @@ import Header from '../component/Header';
 import Sidebar from '../component/Sidebar';
 
 function getShortsId(url) {
-  // Extract shorts ID from YouTube Shorts URL
-  const match = url.match(/youtube.com\/(?:shorts\/)([\w-]{11})/);
-  return match ? match[1] : null;
+  if (!url) return null;
+  // Support both shorts and regular YouTube URLs
+  const shortsMatch = url.match(/youtube\.com\/(?:shorts\/)([\w-]{11})/);
+  const watchMatch = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+  return shortsMatch ? shortsMatch[1] : (watchMatch ? watchMatch[1] : null);
 }
 
 function ExploreReels() {
@@ -16,6 +18,8 @@ function ExploreReels() {
   const [allReels, setAllReels] = useState([]);
   const [liked, setLiked] = useState(false);
   const [saved, setSaved] = useState(false);
+  const [page, setPage] = useState(1);
+  const [loadingMore, setLoadingMore] = useState(false);
 
   const categories = [
     'All',
@@ -45,8 +49,11 @@ function ExploreReels() {
     fetch('/data/reelfeed.json')
       .then(res => res.json())
       .then(data => {
-        // Only use YouTube Shorts
-        const filtered = data.filter(r => r.reel_url && getShortsId(r.reel_url));
+        // Accept both reel_url and video_url for all categories
+        const filtered = data.filter(r =>
+          (r.reel_url && getShortsId(r.reel_url)) ||
+          (r.video_url && getShortsId(r.video_url))
+        );
         setAllReels(filtered);
         setReels(filtered);
       });
@@ -58,7 +65,14 @@ function ExploreReels() {
       setReels(allReels);
       setCurrentIdx(0);
     } else {
-      const filtered = allReels.filter(r => r.category === selectedCategory);
+      const normalized = selectedCategory
+        .replace(/ & /g, '_')
+        .replace(/\s+/g, '_')
+        .toLowerCase();
+      const filtered = allReels.filter(r => {
+        const tag = (r.tag || r.category || '').replace(/ & /g, '_').replace(/\s+/g, '_').toLowerCase();
+        return tag === normalized;
+      });
       setReels(filtered);
       setCurrentIdx(0);
     }
@@ -112,10 +126,17 @@ function ExploreReels() {
   useEffect(() => {
     let ticking = false;
     const onWheel = (e) => {
-      if (!ticking && e.deltaY > 30) {
-        ticking = true;
-        handleNext();
-        setTimeout(() => { ticking = false; }, 600); // debounce
+      if (!ticking) {
+        if (e.deltaY > 30) {
+          ticking = true;
+          handleNext();
+          setTimeout(() => { ticking = false; }, 600); // debounce
+        } else if (e.deltaY < -30) {
+          ticking = true;
+          setCurrentIdx(idx => (idx - 1 >= 0 ? idx - 1 : reels.length - 1));
+          setShowDescription(false);
+          setTimeout(() => { ticking = false; }, 600);
+        }
       }
       e.preventDefault();
     };
@@ -126,10 +147,37 @@ function ExploreReels() {
     return () => {
       if (container) container.removeEventListener('wheel', onWheel);
     };
-  }, [handleNext]);
+  }, [handleNext, reels.length]);
+
+  // Infinite scroll: load more data when scrolled to bottom
+  useEffect(() => {
+    const container = document.getElementById('reel-scroll-container');
+    if (!container) return;
+
+    const handleScroll = () => {
+      if (
+        container.scrollTop + container.clientHeight >= container.scrollHeight - 10 &&
+        !loadingMore
+      ) {
+        setLoadingMore(true);
+        // Simulate loading more data (repeat the same data for demo)
+        setTimeout(() => {
+          setAllReels(prev => [...prev, ...prev]);
+          setReels(prev => [...prev, ...prev]);
+          setLoadingMore(false);
+        }, 800);
+      }
+    };
+
+    container.addEventListener('scroll', handleScroll);
+    return () => container.removeEventListener('scroll', handleScroll);
+  }, [loadingMore]);
 
   const currentReel = reels[currentIdx];
-  const shortsId = currentReel ? getShortsId(currentReel.reel_url) : null;
+  const videoUrl = currentReel
+    ? currentReel.reel_url || currentReel.video_url
+    : null;
+  const shortsId = videoUrl ? getShortsId(videoUrl) : null;
   const isFirstReel = currentIdx === 0;
 
   return (
@@ -264,8 +312,8 @@ function ExploreReels() {
                     <iframe
                       width="100%"
                       height="100%"
-                      src={`https://www.youtube.com/embed/${shortsId}?autoplay=1&mute=${isFirstReel ? 1 : 0}&playsinline=1`}
-                      title={currentReel.title || 'Reel'}
+                      src={shortsId ? `https://www.youtube.com/embed/${shortsId}?autoplay=1&mute=${isFirstReel ? 1 : 0}&playsinline=1` : ''}
+                      title={currentReel?.title || 'Reel'}
                       frameBorder="0"
                       allow="autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -279,7 +327,7 @@ function ExploreReels() {
 
 
 
-                  
+
 
                   {/* Bottom-left Overlay: Title + Description + Audio + Profile */}
                   <div style={{
@@ -294,9 +342,9 @@ function ExploreReels() {
                     gap: 4,
                     zIndex: 10
                   }}>
-                    <div style={{ 
-                      display: 'flex', 
-                      alignItems: 'center', 
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
                       gap: 8,
                       fontWeight: 700,
                       fontSize: 20,

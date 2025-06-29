@@ -5,29 +5,29 @@ import styles from '../ExplorePhotos.module.css';
 import { useLocation } from 'react-router-dom';
 
 // Icon map for categories
-  const categories = [
-    'All',
-    'Technology',
-    'Sports',
-    'Lifestyle',
-    'Business',
-    'Education',
-    'Health & Fitness',
-    'Fashion',
-    'Gaming'
-  ];
-  // Icon map for categories
-  const categoryIcons = {
-    'All': '🗂️',
-    'Technology': '💻',
-    'Sports': '⚽',
-    'Lifestyle': '🏡',
-    'Business': '💼',
-    'Education': '🎓',
-    'Health & Fitness': '🏋️',
-    'Fashion': '👗',
-    'Gaming': '🎮'
-  };
+const categories = [
+  'All',
+  'Technology',
+  'Sports',
+  'Lifestyle',
+  'Business',
+  'Education',
+  'Health & Fitness',
+  'Fashion',
+  'Gaming'
+];
+// Icon map for categories
+const categoryIcons = {
+  'All': '🗂️',
+  'Technology': '💻',
+  'Sports': '⚽',
+  'Lifestyle': '🏡',
+  'Business': '💼',
+  'Education': '🎓',
+  'Health & Fitness': '🏋️',
+  'Fashion': '👗',
+  'Gaming': '🎮'
+};
 
 function ExplorePhotos() {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -38,6 +38,7 @@ function ExplorePhotos() {
   const [saved, setSaved] = useState(false);
   const location = useLocation();
   const [searchTerm, setSearchTerm] = useState('');
+  const [page, setPage] = useState(1);
 
   // Reset liked/saved when modalPhoto changes
   useEffect(() => {
@@ -68,12 +69,49 @@ function ExplorePhotos() {
             likes: Math.floor(Math.random() * 200) + 10, // random likes for demo
             comments: Math.floor(Math.random() * 30), // random comments for demo
             date: '',
-            avatar: `https://randomuser.me/api/portraits/men/${Math.floor(Math.random()*90)+1}.jpg`, // random avatar
+            avatar: `https://randomuser.me/api/portraits/men/${Math.floor(Math.random() * 90) + 1}.jpg`, // random avatar
             category: photo.tag ? photo.tag.charAt(0).toUpperCase() + photo.tag.slice(1) : 'All',
           }));
         setPhotos(mapped);
       });
   }, []);
+
+  // Infinite scroll: load more when scrolled to bottom
+  useEffect(() => {
+    const handleScroll = () => {
+      const container = document.scrollingElement || document.documentElement;
+      if (
+        container.scrollHeight - container.scrollTop - container.clientHeight < 40
+      ) {
+        setPage(prev => prev + 1);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // When page increases, append more photos (repeat data)
+  useEffect(() => {
+    if (page === 1) return;
+    fetch('/data/photofeed.json')
+      .then(res => res.json())
+      .then(data => {
+        const mapped = data
+          .filter(photo => photo.image_url)
+          .map(photo => ({
+            id: `${photo.id || photo.image_url}-page${page}-${Math.random()}`,
+            url: photo.image_url,
+            title: photo.title || '',
+            caption: photo.description || '',
+            likes: Math.floor(Math.random() * 200) + 10,
+            comments: Math.floor(Math.random() * 30),
+            date: '',
+            avatar: `https://randomuser.me/api/portraits/men/${Math.floor(Math.random() * 90) + 1}.jpg`,
+            category: photo.tag ? photo.tag.charAt(0).toUpperCase() + photo.tag.slice(1) : 'All',
+          }));
+        setPhotos(prev => [...prev, ...mapped]);
+      });
+  }, [page]);
 
   // Fuzzy match: case-insensitive substring match
   function isMatch(title, search) {
@@ -95,88 +133,86 @@ function ExplorePhotos() {
       <Header />
       <div style={{ display: 'flex', background: '#fafafa' }}>
         {/* Sidebar: fixed so it doesn't scroll with main feed, no scroll inside sidebar */}
+
+
+
+
         <div style={{
-          position: 'sticky',
-          top: 0,
+          position: 'fixed',
+          top: 50,
           alignSelf: 'flex-start',
           height: '100vh',
-          minHeight: '100vh',
           zIndex: 20,
           background: '#fafafa',
           overflow: 'hidden', // prevent scroll in sidebar
           display: 'flex',
           flexDirection: 'column'
         }}>
+
           <Sidebar />
           {/* Theme button just below the saved button (bottom of sidebar) */}
-          <button
-            style={{
-              margin: '24px auto 0 auto',
-              background: '#7c5cff',
-              color: '#fff',
-              border: 'none',
-              borderRadius: 20,
-              padding: '10px 32px',
-              fontWeight: 700,
-              fontSize: 16,
-              cursor: 'pointer',
-              boxShadow: '0 2px 8px #7c5cff33',
-              transition: 'all 0.15s',
-              minWidth: 120
-            }}
-            // onClick={handleThemeToggle} // Add your theme toggle logic here
-          >
-            Theme
-          </button>
+          {/* Removed Theme button */}
         </div>
-        <div style={{ flex: 1, padding: '32px 0', display: 'flex', justifyContent: 'center', overflowY: 'auto', height: '100vh' }}>
+
+
+
+        <div style={{ flex: 1, padding: '0px 0', display: 'flex', justifyContent: 'center', overflowY: 'auto' , marginLeft: '280px', marginRight: '16px'}}>
           <main className={styles['explore-root']} style={{ maxWidth: 1200, width: '100%' }}>
             {/* Category Bar */}
             <div
+              className="no-scrollbar"
               style={{
+                width: '100%',
+                margin: 0,
+                paddingLeft: 2,
                 display: 'flex',
-                gap: 18,
-                background: '#fff',
-                borderRadius: 22,
-                padding: '12px 18px',
-                margin: '0 0 32px 0',
-                boxShadow: '0 2px 16px #0001',
-                alignItems: 'center',
-                width: 'fit-content',
-                minWidth: 0,
-                maxWidth: '100%',
-                overflowX: 'auto'
+                flexWrap: 'nowrap',
+                gap: 8,
+                overflowX: 'auto',
+                overflowY: 'hidden',
+                padding: '4px 0 6px',
+                background: '',
+                position: 'sticky',
+                top: 0,
+                zIndex: 10,
+                height: 50,
+                boxSizing: 'border-box',
               }}
             >
-              {categories.map(cat => (
+              {categories.map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setActiveCategory(cat)}
                   style={{
+                    background: activeCategory === cat ? '#6C63FF' : '#fff',
+                    color: activeCategory === cat ? '#fff' : '#181818',
+                    border: 'none',
+                    borderRadius: 16,
+                    padding: '4px 12px',
+                    fontWeight: 500,
+                    fontSize: 14,
+                    cursor: 'pointer',
+                    boxShadow:
+                      activeCategory === cat
+                        ? '0 2px 6px #6C63FF33'
+                        : '0 1px 3px #0001',
+                    transition: 'all 0.2s ease-in-out',
                     display: 'flex',
                     alignItems: 'center',
-                    gap: 8,
-                    border: 'none',
-                    outline: 'none',
-                    background: activeCategory === cat ? '#7c5cff' : '#fff',
-                    color: activeCategory === cat ? '#fff' : '#444',
-                    fontWeight: 700,
-                    fontSize: 17,
-                    borderRadius: 22,
-                    padding: '8px 26px',
-                    boxShadow: activeCategory === cat
-                      ? '0 2px 8px #7c5cff33'
-                      : '0 1px 4px #0001',
-                    cursor: 'pointer',
-                    transition: 'all 0.15s',
-                    minWidth: 90
+                    justifyContent: 'center',
+                    gap: 4,
+                    whiteSpace: 'nowrap',
+                    minWidth: 90,
+                    outline: activeCategory === cat ? '2px solid #6C63FF' : 'none',
+                    textAlign: 'center',
                   }}
                 >
-                  <span style={{ fontSize: 20 }}>{categoryIcons[cat]}</span>
-                  {cat}
+                  <span style={{ fontSize: 14 }}>{categoryIcons[cat]}</span>
+                  <span style={{ fontSize: 13 }}>{cat}</span>
                 </button>
               ))}
             </div>
+
             <div className={styles['masonry-grid']}>
               {filteredPhotos.map(photo => (
                 <div
@@ -191,7 +227,7 @@ function ExplorePhotos() {
                   </div>
                   <div className={styles['photo-overlay']}>
                     <span className={styles['photo-title']}>{photo.title}</span>
-                    
+
                   </div>
                 </div>
               ))}
