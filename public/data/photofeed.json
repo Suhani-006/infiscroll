@@ -1,0 +1,1402 @@
+
+[
+  {
+    "id": 1,
+    "title": "The Rise of Quantum Computing",
+    "tag": "technology",
+    "description": "Explore how quantum computers are revolutionizing problem-solving.",
+    "image_url": "https://www.pinterest.com/pin/googles-quantum-dream-may-be-just-around-the-corner--151222499967349100/"
+  },
+  {
+    "id": 2,
+    "title": "Top Python Libraries in 2025",
+    "tag": "technology",
+    "description": "A curated list of the most powerful Python tools this year.",
+    "image_url": "https://media.geeksforgeeks.org/wp-content/uploads/20241023174107934468/frame-4.webp"
+  },
+  {
+    "id": 3,
+    "title": "AI in Everyday Life",
+    "tag": "technology",
+    "description": "How artificial intelligence is quietly transforming your daily routine.",
+    "image_url": "https://codesrevolvewordpress.s3.us-west-2.amazonaws.com/revolveai/2023/04/12100043/examples-of-artificial-intelligence.png"
+  },
+  {
+    "id": 4,
+    "title": "The Ethics of AI #4",
+    "tag": "technology",
+    "description": "Understanding the moral challenges posed by AI technology. (Post 4)",
+    "image_url": "https://ethicsunwrapped.utexas.edu/wp-content/uploads/2024/09/AI-Ethics_Thumbnail.png"
+  },
+  {
+    "id": 5,
+    "title": "5G vs 6G: What\u2019s Next? #5",
+    "tag": "technology",
+    "description": "A glimpse into the future of wireless communication. (Post 5)",
+    "image_url": "https://pub.mdpi-res.com/sensors/sensors-22-01969/article_deploy/html/images/sensors-22-01969-g001.png?1646293552="
+  },
+  {
+    "id": 6,
+    "title": "How Blockchain Works #6",
+    "tag": "technology",
+    "description": "A beginner-friendly explanation of decentralized technology. (Post 6)",
+    "image_url": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 7,
+    "title": "The Internet of Things #7",
+    "tag": "technology",
+    "description": "How smart devices are connected and communicate. (Post 7)",
+    "image_url": "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 8,
+    "title": "Tech Startups to Watch #8",
+    "tag": "technology",
+    "description": "Innovative companies shaping the next decade. (Post 8)",
+    "image_url": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 9,
+    "title": "Cybersecurity Essentials #9",
+    "tag": "technology",
+    "description": "Protecting your digital identity in a connected world. (Post 9)",
+    "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 10,
+    "title": "What is Edge Computing? #10",
+    "tag": "technology",
+    "description": "Processing data closer to the source for better speed. (Post 10)",
+    "image_url": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 11,
+    "title": "The Rise of Quantum Computing #11",
+    "tag": "technology",
+    "description": "Explore how quantum computers are revolutionizing problem-solving. (Post 11)",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 12,
+    "title": "Top Python Libraries in 2025 #12",
+    "tag": "technology",
+    "description": "A curated list of the most powerful Python tools this year. (Post 12)",
+    "image_url": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 13,
+    "title": "AI in Everyday Life #13",
+    "tag": "technology",
+    "description": "How artificial intelligence is quietly transforming your daily routine. (Post 13)",
+    "image_url": "https://images.unsplash.com/photo-1677442135019-8cc5a3f67df3?w=300&h=200&fit=crop" 
+  },
+  {
+    "id": 14,
+    "title": "The Ethics of AI #14",
+    "tag": "technology",
+    "description": "Understanding the moral challenges posed by AI technology. (Post 14)",
+    "image_url": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=300&h=200&fit=crop" 
+  },
+  {
+    "id": 15,
+    "title": "5G vs 6G: What’s Next? #15",
+    "tag": "technology",
+    "description": "A glimpse into the future of wireless communication. (Post 15)",
+    "image_url": "https://images.unsplash.com/photo-1581093450021-7a1dca008b1a?w=300&h=200&fit=crop" 
+  },
+  {
+    "id": 16,
+    "title": "How Blockchain Works #16",
+    "tag": "technology",
+    "description": "A beginner-friendly explanation of decentralized technology. (Post 16)",
+    "image_url": "https://images.unsplash.com/photo-1626624340242-54e2f5fce7f2?w=300&h=200&fit=crop" 
+  },
+  {
+    "id": 17,
+    "title": "The Internet of Things #17",
+    "tag": "technology",
+    "description": "How smart devices are connected and communicate. (Post 17)",
+    "image_url": "https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?w=300&h=200&fit=crop" 
+  },
+  {
+    "id": 18,
+    "title": "Tech Startups to Watch #18",
+    "tag": "technology",
+    "description": "Innovative companies shaping the next decade. (Post 18)",
+    "image_url": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 19,
+    "title": "Cybersecurity Essentials #19",
+    "tag": "technology",
+    "description": "Protecting your digital identity in a connected world. (Post 19)",
+    "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 20,
+    "title": "What is Edge Computing? #20",
+    "tag": "technology",
+    "description": "Processing data closer to the source for better speed. (Post 20)",
+    "image_url": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 21,
+    "title": "The Rise of Quantum Computing #21",
+    "tag": "technology",
+    "description": "Explore how quantum computers are revolutionizing problem-solving. (Post 21)",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 22,
+    "title": "Top Python Libraries in 2025 #22",
+    "tag": "technology",
+    "description": "A curated list of the most powerful Python tools this year. (Post 22)",
+    "image_url": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 23,
+    "title": "AI in Everyday Life #23",
+    "tag": "technology",
+    "description": "How artificial intelligence is quietly transforming your daily routine. (Post 23)",
+    "image_url": "https://images.unsplash.com/photo-1579403124614-197f69d8187b?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 24,
+    "title": "The Ethics of AI #24",
+    "tag": "technology",
+    "description": "Understanding the moral challenges posed by AI technology. (Post 24)",
+    "image_url": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 25,
+    "title": "5G vs 6G: What's Next? #25",
+    "tag": "technology",
+    "description": "A glimpse into the future of wireless communication. (Post 25)",
+    "image_url": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 26,
+    "title": "Olympics 2024 Highlights #1",
+    "tag": "sports",
+    "description": "The most memorable moments from the summer games. (Post 1)",
+    "image_url": "https://images.unsplash.com/photo-1543357480-c60d400e2ef9?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 27,
+    "title": "Training Like a Pro Athlete #2",
+    "tag": "sports",
+    "description": "What it takes to train at the top level. (Post 2)",
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop"
+  },
+  {
+  "id": 28,
+  "title": "Cricket's Greatest Rivalries #3",
+  "tag": "sports",
+  "description": "An inside look at cricket's most intense matchups. (Post 3)",
+  "image_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-27876,resizemode-75,msid-118484959/news/sports/money-history-passion-why-india-pakistan-cricket-rivalry-is-unmatched.jpg"
+},
+  {
+    "id": 29,
+    "title": "The Science of Sports Recovery #4",
+    "tag": "sports",
+    "description": "How athletes bounce back faster than ever. (Post 4)",
+    "image_url": "https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop"
+  },
+  {
+    "id": 30,
+    "title": "Top 10 Goals in Football #5",
+    "tag": "sports",
+    "description": "Relive the greatest goals of all time. (Post 5)",
+    "image_url": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop"
+  },
+  {
+    "id": 31,
+    "title": "Women in Sports #6",
+    "tag": "sports",
+    "description": "The rising influence of female athletes. (Post 6)",
+    "image_url": "https://images.unsplash.com/photo-1543357480-d8923786d040?w=300&h=200&fit=crop"  },
+  {
+    "id": 32,
+    "title": "The Psychology of Winning #7",
+    "tag": "sports",
+    "description": "What separates champions from the rest. (Post 7)",
+    "image_url": "https://images.unsplash.com/photo-1547347298-4074fc3086f0?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 33,
+    "title": "Most Valuable Players of the Year #8",
+    "tag": "sports",
+    "description": "A roundup of this year's top performers. (Post 8)",
+    "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 34,
+    "title": "Esports vs Traditional Sports #9",
+    "tag": "sports",
+    "description": "Where they clash and where they meet. (Post 9)",
+    "image_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 35,
+    "title": "How to Stay Fit Like an Athlete #10",
+    "tag": "sports",
+    "description": "Workouts inspired by pros. (Post 10)",
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop"
+  },
+ {
+    "id": 36,
+    "title": "Olympics 2024 Highlights #11",
+    "tag": "sports",
+    "description": "The most memorable moments from the summer games. (Post 11)",
+    "image_url": "https://gulfnews.com/photos/sports-photos/paris-2024-olympics-highlights-moments-from-athletics-gymnastics-taekwondo-table-tennis-and-more-1.1723212881215/1"
+  },
+  {
+    "id": 37,
+    "title": "Training Like a Pro Athlete #12",
+    "tag": "sports",
+    "description": "What it takes to train at the top level. (Post 12)",
+    "image_url": "https://tractionsports.com/training-programs/professional-athlete"
+  },
+  {
+    "id": 38,
+    "title": "Cricket's Greatest Rivalries #13",
+    "tag": "sports",
+    "description": "An inside look at cricket's most intense matchups. (Post 13)",
+    "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 39,
+    "title": "The Science of Sports Recovery #14",
+    "tag": "sports",
+    "description": "How athletes bounce back faster than ever. (Post 14)",
+    "image_url": "https://images.unsplash.com/photo-1571019614243-cf8b7847d0d6?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 40,
+    "title": "Top 10 Goals in Football #15",
+    "tag": "sports",
+    "description": "Relive the greatest goals of all time. (Post 15)",
+    "image_url": "https://images.unsplash.com/photo-1543357480-c60d400e2ef9?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 41,
+    "title": "Women in Sports #16",
+    "tag": "sports",
+    "description": "The rising influence of female athletes. (Post 16)",
+    "image_url": "https://images.unsplash.com/photo-1543357480-d8923786d040?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 42,
+    "title": "The Psychology of Winning #17",
+    "tag": "sports",
+    "description": "What separates champions from the rest. (Post 17)",
+    "image_url": "https://images.unsplash.com/photo-1547347298-4074fc3086f0?w=300&h=200&fit=crop"  
+  },
+  {
+    "id": 43,
+    "title": "Most Valuable Players of the Year #18",
+    "tag": "sports",
+    "description": "A roundup of this year's top performers. (Post 18)",
+    "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 44,
+    "title": "Esports vs Traditional Sports #19",
+    "tag": "sports",
+    "description": "Where they clash and where they meet. (Post 19)",
+    "image_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 45,
+    "title": "How to Stay Fit Like an Athlete #20",
+    "tag": "sports",
+    "description": "Workouts inspired by pros. (Post 20)",
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 46,
+    "title": "Olympics 2024 Highlights #21",
+    "tag": "sports",
+    "description": "The most memorable moments from the summer games. (Post 21)",
+    "image_url": "https://images.unsplash.com/photo-1543357480-c60d400e2ef9?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 47,
+    "title": "Training Like a Pro Athlete #22",
+    "tag": "sports",
+    "description": "What it takes to train at the top level. (Post 22)",
+    "image_url": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 48,
+    "title": "Cricket's Greatest Rivalries #23",
+    "tag": "sports",
+    "description": "An inside look at cricket's most intense matchups. (Post 23)",
+    "image_url": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 49,
+    "title": "The Science of Sports Recovery #24",
+    "tag": "sports",
+    "description": "How athletes bounce back faster than ever. (Post 24)",
+    "image_url": "https://images.unsplash.com/photo-1571019614243-cf8b7847d0d6?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 50,
+    "title": "Top 10 Goals in Football #25",
+    "tag": "sports",
+    "description": "Relive the greatest goals of all time. (Post 25)",
+    "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 51,
+    "title": "Morning Routines of Successful People #1",
+    "tag": "lifestyle",
+    "description": "What top performers do every day before 8 AM. (Post 1)",
+    "image_url": "https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 52,
+    "title": "The Art of Slow Living #2",
+    "tag": "lifestyle",
+    "description": "Rediscovering joy in a fast-paced world. (Post 2)",
+    "image_url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 53,
+    "title": "Why Decluttering Improves Mental Health #3",
+    "tag": "lifestyle",
+    "description": "How your environment impacts your mind. (Post 3)",
+    "image_url": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 54,
+    "title": "Hygge: The Danish Secret to Happiness #4",
+    "tag": "lifestyle",
+    "description": "Creating cozy and content moments. (Post 4)",
+    "image_url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 55,
+    "title": "Digital Detox Guide #5",
+    "tag": "lifestyle",
+    "description": "Unplug and recharge your mental health. (Post 5)",
+    "image_url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 56,
+    "title": "How to Build a Self-Care Routine #6",
+    "tag": "lifestyle",
+    "description": "Small habits for big impact. (Post 6)",
+    "image_url": "https://images.unsplash.com/photo-1498843053639-170ffc5d488f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 57,
+    "title": "Work-Life Balance Tips #7",
+    "tag": "lifestyle",
+    "description": "Strategies to manage stress and be more present. (Post 7)",
+    "image_url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 58,
+    "title": "Minimalism Made Simple #8",
+    "tag": "lifestyle",
+    "description": "Streamline your life for clarity. (Post 8)",
+    "image_url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 59,
+    "title": "Journaling for Clarity #9",
+    "tag": "lifestyle",
+    "description": "Unlock mindfulness through daily writing. (Post 9)",
+    "image_url": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 60,
+    "title": "Weekend Reset Ideas #10",
+    "tag": "lifestyle",
+    "description": "Ways to relax and prepare for the week ahead. (Post 10)",
+    "image_url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 61,
+    "title": "Morning Routines of Successful People #11",
+    "tag": "lifestyle",
+    "description": "What top performers do every day before 8 AM. (Post 11)",
+    "image_url": "https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 62,
+    "title": "The Art of Slow Living #12",
+    "tag": "lifestyle",
+    "description": "Rediscovering joy in a fast-paced world. (Post 12)",
+    "image_url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 63,
+    "title": "Why Decluttering Improves Mental Health #13",
+    "tag": "lifestyle",
+    "description": "How your environment impacts your mind. (Post 13)",
+    "image_url": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 64,
+    "title": "Hygge: The Danish Secret to Happiness #14",
+    "tag": "lifestyle",
+    "description": "Creating cozy and content moments. (Post 14)",
+    "image_url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 65,
+    "title": "Digital Detox Guide #15",
+    "tag": "lifestyle",
+    "description": "Unplug and recharge your mental health. (Post 15)",
+    "image_url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 66,
+    "title": "How to Build a Self-Care Routine #16",
+    "tag": "lifestyle",
+    "description": "Small habits for big impact. (Post 16)",
+    "image_url": "https://images.unsplash.com/photo-1498843053639-170ffc5d488f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 67,
+    "title": "Work-Life Balance Tips #17",
+    "tag": "lifestyle",
+    "description": "Strategies to manage stress and be more present. (Post 17)",
+    "image_url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 68,
+    "title": "Minimalism Made Simple #18",
+    "tag": "lifestyle",
+    "description": "Streamline your life for clarity. (Post 18)",
+    "image_url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 69,
+    "title": "Journaling for Clarity #19",
+    "tag": "lifestyle",
+    "description": "Unlock mindfulness through daily writing. (Post 19)",
+    "image_url": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 70,
+    "title": "Weekend Reset Ideas #20",
+    "tag": "lifestyle",
+    "description": "Ways to relax and prepare for the week ahead. (Post 20)",
+    "image_url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 71,
+    "title": "Morning Routines of Successful People #21",
+    "tag": "lifestyle",
+    "description": "What top performers do every day before 8 AM. (Post 21)",
+    "image_url": "https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 72,
+    "title": "The Art of Slow Living #22",
+    "tag": "lifestyle",
+    "description": "Rediscovering joy in a fast-paced world. (Post 22)",
+    "image_url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 73,
+    "title": "Why Decluttering Improves Mental Health #23",
+    "tag": "lifestyle",
+    "description": "How your environment impacts your mind. (Post 23)",
+    "image_url": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 74,
+    "title": "Hygge: The Danish Secret to Happiness #24",
+    "tag": "lifestyle",
+    "description": "Creating cozy and content moments. (Post 24)",
+    "image_url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 75,
+    "title": "Digital Detox Guide #25",
+    "tag": "lifestyle",
+    "description": "Unplug and recharge your mental health. (Post 25)",
+    "image_url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 76,
+    "title": "The Future of Online Learning #1",
+    "tag": "education",
+    "description": "How digital classrooms are shaping modern education. (Post 1)",
+    "image_url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 77,
+    "title": "Top Study Hacks for Students #2",
+    "tag": "education",
+    "description": "Maximize learning with these cognitive science-backed strategies. (Post 2)",
+    "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 78,
+    "title": "Gamification in Education #3",
+    "tag": "education",
+    "description": "Making learning more engaging through game mechanics. (Post 3)",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 79,
+    "title": "Why Critical Thinking Matters #4",
+    "tag": "education",
+    "description": "Empowering students beyond rote learning. (Post 4)",
+    "image_url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 80,
+    "title": "Project-Based Learning Explained #5",
+    "tag": "education",
+    "description": "A hands-on approach to knowledge. (Post 5)",
+    "image_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 81,
+    "title": "Free Learning Platforms You Should Know #6",
+    "tag": "education",
+    "description": "Top resources for self-paced study. (Post 6)",
+    "image_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 82,
+    "title": "How to Stay Focused While Studying #7",
+    "tag": "education",
+    "description": "Techniques for deep work. (Post 7)",
+    "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 83,
+    "title": "Blended Learning Models #8",
+    "tag": "education",
+    "description": "Combining online and offline education. (Post 8)",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 84,
+    "title": "How to Prepare for Exams Effectively #9",
+    "tag": "education",
+    "description": "Smart planning and execution. (Post 9)",
+    "image_url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 85,
+    "title": "AI Tutors: Are They Effective? #10",
+    "tag": "education",
+    "description": "The role of AI in personalized education. (Post 10)",
+    "image_url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 86,
+    "title": "The Future of Online Learning #11",
+    "tag": "education",
+    "description": "How digital classrooms are shaping modern education. (Post 11)",
+    "image_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 87,
+    "title": "Top Study Hacks for Students #12",
+    "tag": "education",
+    "description": "Maximize learning with these cognitive science-backed strategies. (Post 12)",
+    "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 88,
+    "title": "Gamification in Education #13",
+    "tag": "education",
+    "description": "Making learning more engaging through game mechanics. (Post 13)",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 89,
+    "title": "Why Critical Thinking Matters #14",
+    "tag": "education",
+    "description": "Empowering students beyond rote learning. (Post 14)",
+    "image_url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 90,
+    "title": "Project-Based Learning Explained #15",
+    "tag": "education",
+    "description": "A hands-on approach to knowledge. (Post 15)",
+    "image_url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 91,
+    "title": "Free Learning Platforms You Should Know #16",
+    "tag": "education",
+    "description": "Top resources for self-paced study. (Post 16)",
+    "image_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 92,
+    "title": "How to Stay Focused While Studying #17",
+    "tag": "education",
+    "description": "Techniques for deep work. (Post 17)",
+    "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 93,
+    "title": "Blended Learning Models #18",
+    "tag": "education",
+    "description": "Combining online and offline education. (Post 18)",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 94,
+    "title": "How to Prepare for Exams Effectively #19",
+    "tag": "education",
+    "description": "Smart planning and execution. (Post 19)",
+    "image_url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 95,
+    "title": "AI Tutors: Are They Effective? #20",
+    "tag": "education",
+    "description": "The role of AI in personalized education. (Post 20)",
+    "image_url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 96,
+    "title": "The Future of Online Learning #21",
+    "tag": "education",
+    "description": "How digital classrooms are shaping modern education. (Post 21)",
+    "image_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 97,
+    "title": "Top Study Hacks for Students #22",
+    "tag": "education",
+    "description": "Maximize learning with these cognitive science-backed strategies. (Post 22)",
+    "image_url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 98,
+    "title": "Gamification in Education #23",
+    "tag": "education",
+    "description": "Making learning more engaging through game mechanics. (Post 23)",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 99,
+    "title": "Why Critical Thinking Matters #24",
+    "tag": "education",
+    "description": "Empowering students beyond rote learning. (Post 24)",
+    "image_url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 100,
+    "title": "Project-Based Learning Explained #25",
+    "tag": "education",
+    "description": "A hands-on approach to knowledge. (Post 25)",
+    "image_url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 101,
+    "title": "Building a Startup in 2025 #1",
+    "tag": "business",
+    "description": "Key trends and advice for new founders. (Post 1)",
+    "image_url": "https://img-cdn.publive.online/fit-in/1280x960/filters:format(webp)/tice-news-prod/media/media_files/2025/01/03/0jhiBdgVsFJxvnmHyBrT.jpg"
+  },
+  {
+  "id": 102,
+  "title": "Remote Work Culture Post-COVID #2",
+  "tag": "business",
+  "description": "Why companies are ditching offices for good. (Post 2)",
+  "image_url": "https://images.unsplash.com/photo-1587614382346-4ecb3f9f2c07"
+},
+  {
+    "id": 103,
+    "title": "How to Nail Your First Pitch #3",
+    "tag": "business",
+    "description": "Tips for presenting your ideas to investors. (Post 3)",
+    "image_url": "https://d1eipm3vz40hy0.cloudfront.net/images/AMER/salespitch77.png"
+  },
+  {
+  "id": 104,
+  "title": "The Rise of Green Businesses #4",
+  "tag": "business",
+  "description": "Making sustainability profitable. (Post 4)",
+  "image_url": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a"
+},
+{
+  "id": 105,
+  "title": "Startup Funding 101 #5",
+  "tag": "business",
+  "description": "From angel investors to venture capital. (Post 5)",
+  "image_url": "https://images.unsplash.com/photo-1592496001020-e524fc739696"
+},
+  {
+    "id": 106,
+    "title": "What Makes a Good Entrepreneur? #6",
+    "tag": "business",
+    "description": "Traits of successful business leaders. (Post 6)",
+    "image_url": "https://online.hbs.edu/PublishingImages/Characteristics-Successful-Entrepreneurs.png"
+  },
+  {
+  "id": 107,
+  "title": "How to Validate a Business Idea #7",
+  "tag": "business",
+  "description": "Avoid wasting time on the wrong idea. (Post 7)",
+  "image_url": "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a1"
+},
+{
+  "id": 108,
+  "title": "Freelancing vs Full-Time Work #8",
+  "tag": "business",
+  "description": "Pros and cons of modern work options. (Post 8)",
+  "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+},
+  {
+    "id": 109,
+    "title": "Creating a Winning Product Strategy #9",
+    "tag": "business",
+    "description": "Aligning business goals and user needs. (Post 9)",
+    "image_url": "https://amoeboids.com/wp-content/uploads/2023/02/Steps-to-Create-Effective-Product-Strategy-infographic2.webp"
+  },
+  {
+  "id": 110,
+  "title": "Leadership Styles Explained #10",
+  "tag": "business",
+  "description": "Which one suits you best? (Post 10)",
+  "image_url": "https://images.unsplash.com/photo-1560264418-c4445382edbc"
+},
+  {
+    "id": 111,
+    "title": "Building a Startup in 2025 #11",
+    "tag": "business",
+    "description": "Key trends and advice for new founders. (Post 11)",
+    "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d" 
+  },
+  {
+    "id": 112,
+    "title": "Remote Work Culture Post-COVID #12",
+    "tag": "business",
+    "description": "Why companies are ditching offices for good. (Post 12)",
+    "image_url": "https://images.unsplash.com/photo-1587614382346-4ecb3f9f2c07"
+  },
+  {
+    "id": 113,
+    "title": "How to Nail Your First Pitch #13",
+    "tag": "business",
+    "description": "Tips for presenting your ideas to investors. (Post 13)",
+    "image_url": "https://images.unsplash.com/photo-1573164574396-9d4aa7f2b6b3"
+  },
+  {
+    "id": 114,
+    "title": "The Rise of Green Businesses #14",
+    "tag": "business",
+     "description": "Making sustainability profitable. (Post 14)",
+    "image_url": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a"
+  },
+  {
+    "id": 115,
+    "title": "Startup Funding 101 #15",
+    "tag": "business",
+    "description": "From angel investors to venture capital. (Post 15)",
+    "image_url": "https://images.unsplash.com/photo-1592496001020-e524fc739696"
+  },
+  {
+    "id": 116,
+    "title": "What Makes a Good Entrepreneur? #16",
+    "tag": "business",
+    "description": "Traits of successful business leaders. (Post 16)",
+    "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+  {
+    "id": 117,
+    "title": "How to Validate a Business Idea #17",
+    "tag": "business",
+     "description": "Avoid wasting time on the wrong idea. (Post 17)",
+    "image_url": "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a1"
+  },
+  {
+    "id": 118,
+    "title": "Freelancing vs Full-Time Work #18",
+    "tag": "business",
+     "description": "Pros and cons of modern work options. (Post 18)",
+    "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+  },
+  {
+    "id": 119,
+    "title": "Creating a Winning Product Strategy #19",
+    "tag": "business",
+     "description": "Aligning business goals and user needs. (Post 19)",
+    "image_url": "https://images.unsplash.com/photo-1601933470928-c1f69d58e9e3"
+  },
+  {
+    "id": 120,
+    "title": "Leadership Styles Explained #20",
+    "tag": "business",
+    "description": "Flexibility for a stronger body. (Post 20)",
+    "image_url": "https://images.unsplash.com/photo-1560264418-c4445382edbc"
+  },
+  {
+    "id": 121,
+    "title": "Building a Startup in 2025 #21",
+    "tag": "business",
+     "description": "Key trends and advice for new founders. (Post 21)",
+    "image_url": "https://images.unsplash.com/photo-1554224155-ec2d4695a003"
+  },
+  {
+    "id": 122,
+    "title": "Remote Work Culture Post-COVID #22",
+    "tag": "business",
+    "description": "Why companies are ditching offices for good. (Post 22)",
+    "image_url": "https://images.unsplash.com/photo-1580894894513-79d9740e469d"
+  },
+  {
+    "id": 123,
+    "title": "How to Nail Your First Pitch #23",
+    "tag": "business",
+    "description": "Tips for presenting your ideas to investors. (Post 23)",
+    "image_url": "https://images.unsplash.com/photo-1573497491208-6b1acb260507"
+  },
+  {
+    "id": 124,
+    "title": "The Rise of Green Businesses #24",
+    "tag": "business",
+    "description": "Making sustainability profitable. (Post 24)",
+    "image_url": "https://images.unsplash.com/photo-1556761175-4b46a572b786"
+  },
+  {
+    "id": 125,
+    "title": "Startup Funding 101 #25",
+    "tag": "business",
+    "description": "From angel investors to venture capital. (Post 25)",
+    "image_url": "https://images.unsplash.com/photo-1565373167564-1b8e01cc873e"
+  },
+  {
+    "id": 126,
+    "title": "Home Workouts That Actually Work #1",
+    "tag": "health_and_fitness",
+     "description": "Effective routines for small spaces. (Post 1)",
+    "image_url": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1"
+  },
+  {
+    "id": 127,
+    "title": "Understanding Macronutrients #2",
+    "tag": "health_and_fitness",
+    "description": "Old is the new new. (Post 2)",
+    "image_url": "https://images.unsplash.com/photo-1603398938378-cf9da8f1fc80"
+  },
+  {
+    "id": 128,
+    "title": "The Science Behind Sleep #3",
+    "tag": "health_and_fitness",
+    "description": "Style tips for self-expression. (Post 3)",
+    "image_url": "https://images.unsplash.com/photo-1604079628040-94335f42b0c3"
+  },
+  {
+    "id": 129,
+    "title": "Benefits of Intermittent Fasting #4",
+    "tag": "health_and_fitness",
+    "description": "Look great without overspending. (Post 4)",
+    "image_url": "https://images.unsplash.com/photo-1576871337632-7d7e5c1d9271"
+  },
+  {
+    "id": 130,
+    "title": "How to Stay Motivated to Exercise #5",
+    "tag": "health_and_fitness",
+    "description": "The art of finishing your outfit. (Post 5)",
+    "image_url": "https://images.unsplash.com/photo-1584467735871-9549bba7d3ae"
+  },
+    {
+        "id": 131,
+        "title": "Mental Health and Exercise #6",
+        "tag": "health_and_fitness",
+        "description": "How movement heals the mind. (Post 6)",
+        "image_url": "https://images.unsplash.com/photo-1599058917212-d1a74d79be8d"
+    },
+    {
+        "id": 132,
+        "title": "Creating a Balanced Diet #7",
+        "tag": "health_and_fitness",
+        "description": "Eating smart without sacrificing flavor. (Post 7)",
+        "image_url": "https://images.unsplash.com/photo-1506806732259-39c2d0268443"
+    },
+    {
+        "id": 133,
+        "title": "Breathing Techniques for Stress #8",
+        "tag": "health_and_fitness",
+        "description": "Relax your body and mind. (Post 8)",
+        "image_url": "https://images.unsplash.com/photo-1588776814546-bcd38e5f0c3b"
+    },
+    {
+        "id": 134,
+        "title": "Hydration and Your Health #9",
+        "tag": "health_and_fitness",
+        "description": "Why water is your best friend. (Post 9)",
+        "image_url": "https://images.unsplash.com/photo-1557499309-acec7209c5f9"
+    },
+    {
+        "id": 135,
+        "title": "Stretching: The Overlooked Essential #10",
+        "tag": "health_and_fitness",
+        "description": "Flexibility for a stronger body. (Post 10)",
+        "image_url": "https://images.unsplash.com/photo-1584467735871-1a1c21e6ce8d"
+    },
+    {
+        "id": 136,
+        "title": "Home Workouts That Actually Work #11",
+        "tag": "health_and_fitness",
+        "description": "Effective routines for small spaces. (Post 11)",
+        "image_url": "https://images.unsplash.com/photo-1583454110551-21d68f8fbd4f"
+    },
+    {
+        "id": 137,
+        "title": "Understanding Macronutrients #12",
+        "tag": "health_and_fitness",
+        "description": "A guide to proteins, fats, and carbs. (Post 12)",
+        "image_url": "https://images.unsplash.com/photo-1506807803488-8eafc15323a7"
+    },
+    {
+        "id": 138,
+        "title": "The Science Behind Sleep #13",
+        "tag": "health_and_fitness",
+        "description": "Why good sleep is more important than ever. (Post 13)",
+        "image_url": "https://images.unsplash.com/photo-1551776235-dde6d4829806"
+    },
+    {
+        "id": 139,
+        "title": "Benefits of Intermittent Fasting #14",
+        "tag": "health_and_fitness",
+        "description": "Is it right for your lifestyle? (Post 14)",
+        "image_url": "https://images.unsplash.com/photo-1611078489935-37b29c1fb42a"
+    },
+    {
+        "id": 140,
+        "title": "How to Stay Motivated to Exercise #15",
+        "tag": "health_and_fitness",
+        "description": "Simple tricks to make fitness a habit. (Post 15)",
+        "image_url": "https://images.unsplash.com/photo-1571019613914-85f342c57f3e"
+    },
+    {
+        "id": 141,
+        "title": "Mental Health and Exercise #16",
+        "tag": "health_and_fitness",
+        "description": "How movement heals the mind. (Post 16)",
+        "image_url": "https://images.unsplash.com/photo-1610382211758-394f6fe5317c"
+    },
+    {
+        "id": 142,
+        "title": "Creating a Balanced Diet #17",
+        "tag": "health_and_fitness",
+        "description": "Eating smart without sacrificing flavor. (Post 17)",
+        "image_url": "https://images.unsplash.com/photo-1613145991422-0134fbd2bb1e"
+    },
+    {
+        "id": 143,
+        "title": "Breathing Techniques for Stress #18",
+        "tag": "health_and_fitness",
+        "description": "Relax your body and mind. (Post 18)",
+        "image_url": "https://images.unsplash.com/photo-1588776814679-39ce0476b8c0"
+    },
+    {
+        "id": 144,
+        "title": "Hydration and Your Health #19",
+        "tag": "health_and_fitness",
+        "description": "Why water is your best friend. (Post 19)",
+        "image_url": "https://images.unsplash.com/photo-1589571894960-20bbe2828e0d"
+    },
+    {
+        "id": 145,
+        "title": "Stretching: The Overlooked Essential #20",
+        "tag": "health_and_fitness",
+        "description": "Flexibility for a stronger body. (Post 20)",
+        "image_url": "https://images.unsplash.com/photo-1611325174651-c2f03ad7e1be"
+    },
+    {
+        "id": 146,
+        "title": "Home Workouts That Actually Work #21",
+        "tag": "health_and_fitness",
+        "description": "Effective routines for small spaces. (Post 21)",
+        "image_url": "https://images.unsplash.com/photo-1584466977773-3f81e0d6127c"
+    },
+    {
+        "id": 147,
+        "title": "Understanding Macronutrients #22",
+        "tag": "health_and_fitness",
+        "description": "A guide to proteins, fats, and carbs. (Post 22)",
+        "image_url": "https://images.unsplash.com/photo-1589927986089-35812386d1d3"
+    },
+    {
+        "id": 148,
+        "title": "The Science Behind Sleep #23",
+        "tag": "health_and_fitness",
+        "description": "Why good sleep is more important than ever. (Post 23)",
+        "image_url": "https://images.unsplash.com/photo-1610986603168-bb7eac8ab34b"
+    },
+    {
+        "id": 149,
+        "title": "Benefits of Intermittent Fasting #24",
+        "tag": "health_and_fitness",
+        "description": "Is it right for your lifestyle? (Post 24)",
+        "image_url": "https://images.unsplash.com/photo-1590080876137-d43c4683b541"
+    },
+    {
+        "id": 150,
+        "title": "How to Stay Motivated to Exercise #25",
+        "tag": "health_and_fitness",
+        "description": "Simple tricks to make fitness a habit. (Post 25)",
+        "image_url": "https://images.unsplash.com/photo-1579758629937-5fefb4c32568"
+    },
+  {
+        "id": 151,
+        "title": "2025 Fashion Trends to Watch #1",
+        "tag": "fashion",
+        "description": "What's hot and what's not this season. (Post 1)",
+        "image_url": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
+    },
+    {
+  "id": 152,
+  "title": "Sustainable Clothing Brands #2",
+  "tag": "fashion",
+  "description": "Eco-friendly companies that are changing the industry. (Post 2)",
+  "image_url": "https://images.unsplash.com/photo-1603252109303-2751441dd157"
+},
+    {
+        "id": 153,
+        "title": "Building a Capsule Wardrobe #3",
+        "tag": "fashion",
+        "description": "Less clutter, more style. (Post 3)",
+        "image_url": "https://images.unsplash.com/photo-1483794344563-d27a8d38fce4"
+    },
+    {
+        "id": 154,
+        "title": "Vintage Styles Making a Comeback #4",
+        "tag": "fashion",
+        "description": "Old is the new new. (Post 4)",
+        "image_url": "https://images.unsplash.com/photo-1495121605193-b116b5b9c836"
+    },
+    {
+        "id": 155,
+        "title": "How to Find Your Signature Look #5",
+        "tag": "fashion",
+        "description": "Style tips for self-expression. (Post 5)",
+        "image_url": "https://images.unsplash.com/photo-1520974699223-6aefc2d81167"
+    },
+    {
+        "id": 156,
+        "title": "Fashion on a Budget #6",
+        "tag": "fashion",
+        "description": "Look great without overspending. (Post 6)",
+        "image_url": "https://images.unsplash.com/photo-1520975603653-34554ec72539"
+    },
+    {
+        "id": 157,
+        "title": "Accessorizing Like a Pro #7",
+        "tag": "fashion",
+        "description": "The art of finishing your outfit. (Post 7)",
+        "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b"
+    },
+    {
+        "id": 158,
+        "title": "Color Theory in Fashion #8",
+        "tag": "fashion",
+        "description": "Matching tones and textures. (Post 8)",
+        "image_url": "https://images.unsplash.com/photo-1500259578672-5600a3a7eeaf"
+    },
+    {
+        "id": 159,
+        "title": "Seasonal Wardrobe Switch #9",
+        "tag": "fashion",
+        "description": "Smart changes for every season. (Post 9)",
+        "image_url": "https://images.unsplash.com/photo-1514996937319-344454492b37"
+    },
+    {
+        "id": 160,
+        "title": "The Influence of Streetwear #10",
+        "tag": "fashion",
+        "description": "From the sidewalk to the runway. (Post 10)",
+        "image_url": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb"
+    },
+    {
+        "id": 161,
+        "title": "2025 Fashion Trends to Watch #11",
+        "tag": "fashion",
+        "description": "What's hot and what's not this season. (Post 11)",
+        "image_url": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
+    },
+    {
+  "id": 162,
+  "title": "Sustainable Clothing Brands #12",
+  "tag": "fashion",
+  "description": "Eco-friendly companies that are changing the industry. (Post 12)",
+  "image_url": "https://images.unsplash.com/photo-1603252109303-2751441dd157"
+},
+    {
+        "id": 163,
+        "title": "Building a Capsule Wardrobe #13",
+        "tag": "fashion",
+        "description": "Less clutter, more style. (Post 13)",
+        "image_url": "https://images.unsplash.com/photo-1483794344563-d27a8d38fce4"
+    },
+    {
+        "id": 164,
+        "title": "Vintage Styles Making a Comeback #14",
+        "tag": "fashion",
+        "description": "Old is the new new. (Post 14)",
+        "image_url": "https://images.unsplash.com/photo-1495121605193-b116b5b9c836"
+    },
+    {
+        "id": 165,
+        "title": "How to Find Your Signature Look #15",
+        "tag": "fashion",
+        "description": "Style tips for self-expression. (Post 15)",
+        "image_url": "https://images.unsplash.com/photo-1520974699223-6aefc2d81167"
+    },
+    {
+        "id": 166,
+        "title": "Fashion on a Budget #16",
+        "tag": "fashion",
+        "description": "Look great without overspending. (Post 16)",
+        "image_url": "https://images.unsplash.com/photo-1520975603653-34554ec72539"
+    },
+    {
+        "id": 167,
+        "title": "Accessorizing Like a Pro #17",
+        "tag": "fashion",
+        "description": "The art of finishing your outfit. (Post 17)",
+        "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b"
+    },
+    {
+        "id": 168,
+        "title": "Color Theory in Fashion #18",
+        "tag": "fashion",
+        "description": "Matching tones and textures. (Post 18)",
+        "image_url": "https://images.unsplash.com/photo-1500259578672-5600a3a7eeaf"
+    },
+    {
+        "id": 169,
+        "title": "Seasonal Wardrobe Switch #19",
+        "tag": "fashion",
+        "description": "Smart changes for every season. (Post 19)",
+        "image_url": "https://images.unsplash.com/photo-1514996937319-344454492b37"
+    },
+    {
+        "id": 170,
+        "title": "The Influence of Streetwear #20",
+        "tag": "fashion",
+        "description": "From the sidewalk to the runway. (Post 20)",
+        "image_url": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb"
+    },
+    {
+        "id": 171,
+        "title": "2025 Fashion Trends to Watch #21",
+        "tag": "fashion",
+        "description": "What's hot and what's not this season. (Post 21)",
+        "image_url": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
+    },
+   {
+  "id": 172,
+  "title": "Sustainable Clothing Brands #22",
+  "tag": "fashion",
+  "description": "Eco-friendly companies that are changing the industry. (Post 22)",
+  "image_url": "https://images.unsplash.com/photo-1603252109303-2751441dd157"
+},
+    {
+        "id": 173,
+        "title": "Building a Capsule Wardrobe #23",
+        "tag": "fashion",
+        "description": "Less clutter, more style. (Post 23)",
+        "image_url": "https://images.unsplash.com/photo-1483794344563-d27a8d38fce4"
+    },
+    {
+        "id": 174,
+        "title": "Vintage Styles Making a Comeback #24",
+        "tag": "fashion",
+        "description": "Old is the new new. (Post 24)",
+        "image_url": "https://images.unsplash.com/photo-1495121605193-b116b5b9c836"
+    },
+    {
+        "id": 175,
+        "title": "How to Find Your Signature Look #25",
+        "tag": "fashion",
+        "description": "Style tips for self-expression. (Post 25)",
+        "image_url": "https://images.unsplash.com/photo-1520974699223-6aefc2d81167"
+    },
+  {
+    "id": 176,
+    "title": "Top Indie Games of the Year #1",
+    "tag": "gaming",
+    "description": "Hidden gems you shouldn’t miss. (Post 1)",
+    "image_url": "https://images.pexels.com/photos/857719/pexels-photo-857719.jpeg"
+  },
+  {
+    "id": 177,
+    "title": "The Evolution of Game Graphics #2",
+    "tag": "gaming",
+    "description": "From 8‑bit to ray tracing. (Post 2)",
+    "image_url": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg"
+  },
+  {
+    "id": 178,
+    "title": "eSports: A Billion-Dollar Industry #3",
+    "tag": "gaming",
+    "description": "How competitive gaming went mainstream. (Post 3)",
+    "image_url": "https://images.pexels.com/photos/442588/pexels-photo-442588.jpeg"
+  },
+  {
+    "id": 179,
+    "title": "Game Engines Explained #4",
+    "tag": "gaming",
+    "description": "Behind the scenes of game development. (Post 4)",
+    "image_url": "https://images.pexels.com/photos/163069/pexels-photo-163069.jpeg"
+  },
+  {
+    "id": 180,
+    "title": "How to Build a Gaming PC #5",
+    "tag": "gaming",
+    "description": "A guide for beginners. (Post 5)",
+    "image_url": "https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg"
+  },
+  {
+    "id": 181,
+    "title": "Women in Gaming #6",
+    "tag": "gaming",
+    "description": "Celebrating inclusion and talent. (Post 6)",
+    "image_url": "https://images.pexels.com/photos/791528/pexels-photo-791528.jpeg"
+  },
+  {
+    "id": 182,
+    "title": "Mobile Gaming Trends #7",
+    "tag": "gaming",
+    "description": "How smartphones are reshaping play. (Post 7)",
+    "image_url": "https://images.pexels.com/photos/133579/pexels-photo-133579.jpeg"
+  },
+  {
+    "id": 183,
+    "title": "The Psychology of Game Design #8",
+    "tag": "gaming",
+    "description": "Why games are so engaging. (Post 8)",
+    "image_url": "https://images.pexels.com/photos/755256/pexels-photo-755256.jpeg"
+  },
+  {
+    "id": 184,
+    "title": "Best Co-Op Games for Friends #9",
+    "tag": "gaming",
+    "description": "Play together, win together. (Post 9)",
+    "image_url": "https://images.pexels.com/photos/907221/pexels-photo-907221.jpeg"
+  },
+  {
+    "id": 185,
+    "title": "Virtual Reality in Gaming #10",
+    "tag": "gaming",
+    "description": "Immersive experiences like never before. (Post 10)",
+    "image_url": "https://images.pexels.com/photos/1298611/pexels-photo-1298611.jpeg"
+  },
+  {
+    "id": 186,
+    "title": "Top Indie Games of the Year #11",
+    "tag": "gaming",
+    "description": "Hidden gems you shouldn’t miss. (Post 11)",
+    "image_url": "https://images.pexels.com/photos/1616516/pexels-photo-1616516.jpeg"
+  },
+  {
+    "id": 187,
+    "title": "The Evolution of Game Graphics #12",
+    "tag": "gaming",
+    "description": "From 8-bit to ray tracing. (Post 12)",
+    "image_url": "https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg"
+  },
+  {
+    "id": 188,
+    "title": "eSports: A Billion-Dollar Industry #13",
+    "tag": "gaming",
+    "description": "How competitive gaming went mainstream. (Post 13)",
+    "image_url": "https://images.pexels.com/photos/791528/pexels-photo-791528.jpeg"
+  },
+  {
+    "id": 189,
+    "title": "Game Engines Explained #14",
+    "tag": "gaming",
+    "description": "Behind the scenes of game development. (Post 14)",
+    "image_url": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg"
+  },
+  {
+    "id": 190,
+    "title": "How to Build a Gaming PC #15",
+    "tag": "gaming",
+    "description": "A guide for beginners. (Post 15)",
+    "image_url": "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg"
+  },
+  {
+    "id": 191,
+    "title": "Women in Gaming #16",
+    "tag": "gaming",
+    "description": "Celebrating inclusion and talent. (Post 16)",
+    "image_url": "https://images.pexels.com/photos/756231/pexels-photo-756231.jpeg"
+  },
+  {
+    "id": 192,
+    "title": "Mobile Gaming Trends #17",
+    "tag": "gaming",
+    "description": "How smartphones are reshaping play. (Post 17)",
+    "image_url": "https://images.pexels.com/photos/6078120/pexels-photo-6078120.jpeg"
+  },
+  {
+    "id": 193,
+    "title": "The Psychology of Game Design #18",
+    "tag": "gaming",
+    "description": "Why games are so engaging. (Post 18)",
+    "image_url": "https://images.pexels.com/photos/4348103/pexels-photo-4348103.jpeg"
+  },
+  {
+    "id": 194,
+    "title": "Best Co-Op Games for Friends #19",
+    "tag": "gaming",
+    "description": "Play together, win together. (Post 19)",
+    "image_url": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg"
+  },
+  {
+    "id": 195,
+    "title": "Virtual Reality in Gaming #20",
+    "tag": "gaming",
+    "description": "Immersive experiences like never before. (Post 20)",
+    "image_url": "https://images.pexels.com/photos/3656857/pexels-photo-3656857.jpeg"
+  },
+  {
+    "id": 196,
+    "title": "Top Indie Games of the Year #21",
+    "tag": "gaming",
+    "description": "Hidden gems you shouldn’t miss. (Post 21)",
+    "image_url": "https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg"
+  },
+  {
+    "id": 197,
+    "title": "The Evolution of Game Graphics #22",
+    "tag": "gaming",
+    "description": "From 8-bit to ray tracing. (Post 22)",
+    "image_url": "https://images.pexels.com/photos/756231/pexels-photo-756231.jpeg"
+  },
+  {
+    "id": 198,
+    "title": "eSports: A Billion-Dollar Industry #23",
+    "tag": "gaming",
+    "description": "How competitive gaming went mainstream. (Post 23)",
+    "image_url": "https://images.pexels.com/photos/907221/pexels-photo-907221.jpeg"
+  },
+  {
+    "id": 199,
+    "title": "Game Engines Explained",
+    "tag": "gaming",
+    "description": "Behind the scenes of game development.",
+    "image_url": "https://images.pexels.com/photos/1181352/pexels-photo-1181352.jpeg"
+  },
+  {
+    "id": 200,
+    "title": "How to Build a Gaming PC",
+    "tag": "gaming",
+    "description": "A guide for beginners.",
+    "image_url": "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg"
+  }
+]

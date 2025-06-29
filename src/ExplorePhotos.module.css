@@ -1,0 +1,209 @@
+.category-bar {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.75rem;
+  padding: 1rem 0.5rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 2rem;
+}
+.category-chip {
+  border: none;
+  background: #f3f4f6;
+  color: #222;
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.category-chip:hover {
+  background: #e0e7ef;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.category-chip.active {
+  background: #2563eb;
+  color: #fff;
+}
+.cat-icon {
+  font-size: 1.2em;
+}
+
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+@media (max-width: 900px) {
+  .masonry-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .masonry-grid { grid-template-columns: 1fr; }
+}
+.photo-card {
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.18s, box-shadow 0.18s;
+  position: relative;
+  animation: fadeIn 0.7s;
+}
+.photo-card:hover {
+  transform: scale(1.025);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: none; }
+}
+.photo-img-wrapper {
+  position: relative;
+}
+.photo-img {
+  width: 100%;
+  display: block;
+  border-radius: 1.25rem 1.25rem 0 0;
+  object-fit: cover;
+  min-height: 180px;
+  max-height: 340px;
+}
+.photo-overlay {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.7rem 1rem;
+  background: linear-gradient(0deg, rgba(0,0,0,0.45) 70%, transparent 100%);
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+}
+.photo-title {
+  font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.18);
+}
+.photo-meta {
+  display: flex;
+  gap: 0.7rem;
+  font-size: 0.98em;
+  align-items: center;
+}
+.photo-avatar {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.7rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+}
+.photo-save {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  font-size: 1.3em;
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.2em 0.3em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  color: #2563eb;
+}
+
+.photo-modal-backdrop {
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo-modal {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 2rem;
+  max-width: 95vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.modal-img {
+  max-width: 70vw;
+  max-height: 60vh;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  object-fit: contain;
+}
+.modal-meta {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.modal-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+.modal-caption {
+  color: #444;
+  margin-bottom: 0.7em;
+}
+.modal-info {
+  display: flex;
+  gap: 1.2em;
+  color: #2563eb;
+  font-size: 1.1em;
+  margin-bottom: 0.7em;
+}
+.modal-actions {
+  display: flex;
+  gap: 1em;
+}
+.modal-actions button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5em 1.2em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.modal-actions button:hover {
+  background: #1e40af;
+}
+.modal-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  background: #fff;
+  border: none;
+  font-size: 2em;
+  color: #222;
+  border-radius: 50%;
+  width: 2.2em;
+  height: 2.2em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  transition: background 0.18s;
+}
+.modal-close:hover {
+  background: #f3f4f6;
+}
+
+body, html {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #f7f8fa;
+  color: #222;
+}

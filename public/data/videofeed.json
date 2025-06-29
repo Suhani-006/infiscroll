@@ -1,0 +1,1404 @@
+
+[
+    {
+        "id": 1,
+        "title": "Quantum Leap: The Next Era of Computing",
+        "tag": "technology",
+        "description": "Dive into the world of quantum computers and their potential to change technology forever.",
+        "video_url": "https://www.youtube.com/watch?v=79uWL6wDvGo"
+    },
+    {
+        "id": 2,
+        "title": "Next-Gen Electric Cars: 2025 Preview",
+        "tag": "technology",
+        "description": "A sneak peek at the most anticipated electric vehicles hitting the roads.",
+        "video_url": "https://www.youtube.com/watch?v=lO4rVikAslM"
+    },
+    {
+        "id": 3,
+        "title": "AI in Everyday Life: Surprising Uses",
+        "tag": "technology",
+        "description": "Discover how artificial intelligence is quietly improving daily routines.",
+        "video_url": "https://www.youtube.com/watch?v=BCn7_pUGloQ"
+    },
+    {
+        "id": 4,
+        "title": "The Rise of Indie Video Games",
+        "tag": "technology",
+        "description": "Why independent developers are reshaping the gaming landscape.",
+        "video_url": "https://www.youtube.com/watch?v=v3Q6VH3NC2c"
+    },
+    {
+        "id": 5,
+        "title": "Solar Power Innovations for 2025",
+        "tag": "technology",
+        "description": "Discover how solar energy is becoming more efficient and accessible.",
+        "video_url": "https://www.youtube.com/watch?v=ilL_QSNWYLo"
+    },
+    {
+        "id": 6,
+        "title": "Smart Kitchens: Cooking with AI",
+        "tag": "technology",
+        "description": "How artificial intelligence is revolutionizing the culinary world.",
+        "video_url": "https://www.youtube.com/watch?v=W1YSV_iPwQM"
+    },
+    {
+        "id": 7,
+        "title": "Wearable Tech: What’s New in 2025",
+        "tag": "technology",
+        "description": "The latest in smartwatches, fitness trackers, and more.",
+        "video_url": "https://www.youtube.com/watch?v=OBvj_1ynpiY"
+    },
+    {
+        "id": 8,
+        "title": "Smart Cities: Urban Living Redefined",
+        "tag": "technology",
+        "description": "How technology is reshaping city life for better efficiency.",
+        "video_url": "https://www.youtube.com/watch?v=o7dNChlaeDA"
+    },
+    {
+        "id": 9,
+        "title": "Home Automation: Smart Living",
+        "tag": "technology",
+        "description": "Make your home smarter with the latest automation tech.",
+        "video_url": "https://www.youtube.com/watch?v=-UEizhqiu8c"
+    },
+    {
+        "id": 10,
+        "title": "Augmented Reality: Changing How We See",
+        "tag": "technology",
+        "description": "AR is blending the digital and physical worlds like never before.",
+        "video_url": "https://www.youtube.com/watch?v=79uWL6wDvGo"
+    },
+    {
+        "id": 11,
+        "title": "5G Networks: What’s Next?",
+        "tag": "technology",
+        "description": "Explore how 5G is transforming connectivity worldwide.",
+        "video_url": "https://www.youtube.com/watch?v=mo1lNRKnayA"
+    },
+    {
+        "id": 12,
+        "title": "The Blockchain Explained",
+        "tag": "technology",
+        "description": "A beginner’s guide to understanding blockchain technology.",
+        "video_url": "https://www.youtube.com/watch?v=SSo_EIwHSd4"
+    },
+    {
+        "id": 13,
+        "title": "The Internet of Things: Connected Life",
+        "tag": "technology",
+        "description": "How IoT devices are making life more convenient.",
+        "video_url": "https://www.youtube.com/watch?v=4FxU-xpuCww"
+    },
+    {
+        "id": 14,
+        "title": "Cloud Computing: The Basics",
+        "tag": "technology",
+        "description": "Understand how cloud technology powers the modern world.",
+        "video_url": "https://www.youtube.com/watch?v=M988_fsOSWo"
+    },
+    {
+        "id": 15,
+        "title": "Machine Learning: Real World Uses",
+        "tag": "technology",
+        "description": "How machine learning is impacting daily life.",
+        "video_url": "https://www.youtube.com/watch?v=CiSaY2xl9V4"
+    },
+    {
+        "id": 16,
+        "title": "Cybersecurity: Protect Your Data",
+        "tag": "technology",
+        "description": "Stay safe online with these essential security tips.",
+        "video_url": "https://www.youtube.com/watch?v=nSGQkE67jcg"
+    },
+    {
+        "id": 17,
+        "title": "Digital Art: Tools and Techniques",
+        "tag": "technology",
+        "description": "Get started with digital drawing and painting.",
+        "video_url": "https://www.youtube.com/watch?v=mcaL1Vramgk"
+    },
+    {
+        "id": 18,
+        "title": "Voice Assistants: Smarter Than Ever",
+        "tag": "technology",
+        "description": "How voice technology is changing the way we live.",
+        "video_url": "https://www.youtube.com/watch?v=XOGxxgRDSEs"
+    },
+    {
+        "id": 19,
+        "title": "Smart Watches: Beyond Fitness Tracking",
+        "tag": "technology",
+        "description": "Explore the advanced features of modern smartwatches.",
+        "video_url": "https://www.youtube.com/watch?v=o4A3MiLsNJc"
+    },
+    {
+        "id": 20,
+        "title": "3D Printing: The Maker Revolution",
+        "tag": "technology",
+        "description": "How 3D printing is changing manufacturing and creativity.",
+        "video_url": "https://www.youtube.com/watch?v=zp--ytWeBVM"
+    },
+ {
+    "id": 21,
+    "title": "Virtual Reality: Gaming’s New Frontier",
+    "tag": "technology",
+    "description": "How VR is transforming the gaming experience.",
+    "video_url": "https://www.youtube.com/watch?v=CSAqv_Bw0Es"
+  },
+  {
+    "id": 22,
+    "title": "Wearable Health Tech: The Future",
+    "tag": "technology",
+    "description": "The latest in wearable devices for health monitoring.",
+    "video_url": "https://www.youtube.com/watch?v=iNTnlntbkm4"
+  },
+  {
+    "id": 23,
+    "title": "Smart Homes: The Connected Future",
+    "tag": "technology",
+    "description": "See how smart home devices are changing daily life.",
+    "video_url": "https://www.youtube.com/watch?v=nVlDPjPtjW8"
+  },
+  {
+    "id": 24,
+    "title": "Electric Vehicles: Charging Ahead",
+    "tag": "technology",
+    "description": "The future of EVs and charging infrastructure.",
+    "video_url": "https://www.youtube.com/watch?v=IqgT7u0bYsg"
+  },
+  {
+    "id": 25,
+    "title": "AI Assistants: Your Digital Helpers",
+    "tag": "technology",
+    "description": "How AI assistants are making life easier.",
+    "video_url": "https://www.youtube.com/watch?v=iavdGf3FxzQ"
+  },
+  {
+    "id": 26,
+    "title": "Eco-Friendly Homes of Tomorrow",
+    "tag": "lifestyle",
+    "description": "A look at sustainable architecture and innovative green home designs.",
+    "video_url": "https://www.youtube.com/watch?v=PMi5V1KHQfo"
+  },
+  {
+    "id": 27,
+    "title": "The Art of Minimalist Living",
+    "tag": "lifestyle",
+    "description": "Find out how minimalism can transform your space and your mind.",
+    "video_url": "https://www.youtube.com/watch?v=jx7I80YZoiQ"
+  },
+  {
+    "id": 28,
+    "title": "Urban Gardening: Grow Food Anywhere",
+    "tag": "lifestyle",
+    "description": "Tips and tricks for growing your own vegetables in small spaces.",
+    "video_url": "https://www.youtube.com/watch?v=UwHgCzjjzXo"
+  },
+  {
+    "id": 29,
+    "title": "Digital Nomad Lifestyle: Pros & Cons",
+    "tag": "lifestyle",
+    "description": "Is working remotely while traveling the world right for you?",
+    "video_url": "https://www.youtube.com/watch?v=cNkoUIBK6t4"
+  },
+  {
+    "id": 30,
+    "title": "Sustainable Fashion: Trends & Tips",
+    "tag": "lifestyle",
+    "description": "How to dress stylishly while caring for the planet.",
+    "video_url": "https://www.youtube.com/watch?v=ZU8u2k7q_jY"
+  },
+  {
+    "id": 31,
+    "title": "Thrifting: Vintage Finds & DIY Upcycling",
+    "tag": "lifestyle",
+    "description": "Tips for finding treasures and giving them new life.",
+    "video_url": "https://www.youtube.com/watch?v=PWm5mGzuzOU"
+  },
+  {
+    "id": 32,
+    "title": "Tiny Houses: Living Large in Small Spaces",
+    "tag": "lifestyle",
+    "description": "Explore the tiny house movement and creative space solutions.",
+    "video_url": "https://www.youtube.com/watch?v=DbPNbK-9VL0"
+  },
+  {
+    "id": 33,
+    "title": "Mindful Morning Routines",
+    "tag": "lifestyle",
+    "description": "Start your day with intention and positivity.",
+    "video_url": "https://www.youtube.com/watch?v=GneKaqMdKyk"
+  },
+  {
+    "id": 34,
+    "title": "Zero Waste Living: Getting Started",
+    "tag": "lifestyle",
+    "description": "Reduce your footprint with zero waste habits.",
+    "video_url": "https://www.youtube.com/watch?v=J77PRZk_pjk"
+  },
+  {
+    "id": 35,
+    "title": "Scandinavian Design: Simplicity & Function",
+    "tag": "lifestyle",
+    "description": "Incorporate Scandinavian style into your home.",
+    "video_url": "https://www.youtube.com/watch?v=lDzA5vjaO2s"
+  },
+  {
+    "id": 36,
+    "title": "Capsule Wardrobe: Less is More",
+    "tag": "lifestyle",
+    "description": "Build a versatile and stylish capsule wardrobe.",
+    "video_url": "https://www.youtube.com/watch?v=JBxYqaMP1ec"
+  },
+  {
+    "id": 37,
+    "title": "Bohemian Home Decor: Express Yourself",
+    "tag": "lifestyle",
+    "description": "Add color and personality to your living space.",
+    "video_url": "https://www.youtube.com/watch?v=U69oISviYVw"
+  },
+  {
+    "id": 38,
+    "title": "Feng Shui for Modern Homes",
+    "tag": "lifestyle",
+    "description": "Bring harmony and balance to your living space.",
+    "video_url": "https://www.youtube.com/watch?v=lIKHEVd-_aQ"
+  },
+  {
+    "id": 39,
+    "title": "Minimalist Travel: Pack Light, Live Large",
+    "tag": "lifestyle",
+    "description": "Travel smarter with minimalist packing tips.",
+    "video_url": "https://www.youtube.com/watch?v=B6v0LxJ_syA"
+  },
+  {
+    "id": 40,
+    "title": "Home Office Hacks for Productivity",
+    "tag": "lifestyle",
+    "description": "Boost your efficiency with these home office tips.",
+    "video_url": "https://www.youtube.com/watch?v=vkB0LJUTgJk"
+  },
+  {
+    "id": 41,
+    "title": "Mindful Eating: Savor Every Bite",
+    "tag": "lifestyle",
+    "description": "Practice mindfulness for a healthier relationship with food.",
+    "video_url": "https://www.youtube.com/watch?v=gcIxWIDuKZQ"
+  },
+  {
+    "id": 42,
+    "title": "Japandi Style: East Meets West",
+    "tag": "lifestyle",
+    "description": "Blend Japanese and Scandinavian design at home.",
+    "video_url": "https://www.youtube.com/watch?v=dgIqGxXJ7Ms"
+  },
+  {
+    "id": 43,
+    "title": "Minimalist Wardrobe: Fashion Simplified",
+    "tag": "lifestyle",
+    "description": "Create a wardrobe that’s simple and stylish.",
+    "video_url": "https://www.youtube.com/watch?v=dmb24L5GsXc"
+  },
+  {
+    "id": 44,
+    "title": "Scandinavian Living: Cozy and Modern",
+    "tag": "lifestyle",
+    "description": "Make your home cozy with Scandinavian design.",
+    "video_url": "https://www.youtube.com/watch?v=RAsJAAqdF-w"
+  },
+  {
+    "id": 45,
+    "title": "Eco-Friendly Cleaning: Green Solutions",
+    "tag": "lifestyle",
+    "description": "Clean your home safely with eco-friendly products.",
+    "video_url": "https://www.youtube.com/watch?v=lIKHEVd-_aQ"
+  },
+  {
+    "id": 46,
+    "title": "Home Organization: Declutter Your Space",
+    "tag": "lifestyle",
+    "description": "Transform your home with smart organization tips.",
+    "video_url": "https://www.youtube.com/watch?v=EbW9GF1OUqw"
+  },
+  {
+    "id": 47,
+    "title": "Mindful Parenting: Raising Resilient Kids",
+    "tag": "lifestyle",
+    "description": "Parenting with mindfulness for happier families.",
+    "video_url": "https://www.youtube.com/watch?v=i0h0pAy_l4w"
+  },
+  {
+    "id": 48,
+    "title": "Minimalist Kitchens: Cooking Made Simple",
+    "tag": "lifestyle",
+    "description": "Streamline your kitchen for easy meal prep.",
+    "video_url": "https://www.youtube.com/watch?v=vkB0LJUTgJk"
+  },
+  {
+    "id": 49,
+    "title": "Scandinavian Bedrooms: Peaceful Retreats",
+    "tag": "lifestyle",
+    "description": "Create a serene bedroom with Scandinavian design.",
+    "video_url": "https://www.youtube.com/watch?v=YJ9phsdqRxE"
+  },
+  {
+    "id": 50,
+    "title": "Minimalist Bathrooms: Clean and Calm",
+    "tag": "lifestyle",
+    "description": "Design a bathroom that’s both functional and serene.",
+    "video_url": "https://www.youtube.com/watch?v=WtyVB6RqYY0"
+  },
+  {
+"id": 51,
+"title": "How to Start a Startup",
+"tag": "business",
+"description": "Learn the key steps and mindset to launch a successful startup.",
+"video_url": "https://www.youtube.com/watch?v=CBYhVcO4WgI"
+},
+  {
+    "id": 52,
+    "title": "Understanding Business Models",
+    "tag": "business",
+    "description": "An overview of the most effective business models and how they work.",
+    "video_url": "https://www.youtube.com/watch?v=IPYeCltXpxw"
+  },
+  {
+    "id": 53,
+    "title": "The Future of Entrepreneurship",
+    "tag": "business",
+    "description": "Explore emerging trends in global entrepreneurship.",
+    "video_url": "https://www.youtube.com/watch?v=Q3fK9QzFhQY"
+  },
+  {
+    "id": 54,
+    "title": "Building a Strong Brand",
+    "tag": "business",
+    "description": "How to create and grow a brand that stands out.",
+    "video_url": "https://www.youtube.com/watch?v=L9gnnRU0nK8"
+  },
+  {
+    "id": 55,
+    "title": "Investing 101: Grow Your Money",
+    "tag": "business",
+    "description": "A beginner's guide to smart investing and growing wealth.",
+    "video_url": "https://www.youtube.com/watch?v=sSKXQYZiy6M"
+  },
+  {
+    "id": 56,
+    "title": "What is Venture Capital?",
+    "tag": "business",
+    "description": "Understand how VC firms work and how startups get funded.",
+    "video_url": "https://www.youtube.com/watch?v=Qh_2i7w7RZg"
+  },
+  {
+    "id": 57,
+    "title": "Marketing for Small Businesses",
+    "tag": "business",
+    "description": "Top marketing strategies for small and medium enterprises.",
+    "video_url": "https://www.youtube.com/watch?v=T0vZqv4fvQA"
+  },
+  {
+    "id": 58,
+    "title": "Business Ethics Explained",
+    "tag": "business",
+    "description": "Why ethical practices are crucial in today’s business world.",
+    "video_url": "https://www.youtube.com/watch?v=IdKMF1ZT_Pk"
+  },
+  {
+    "id": 59,
+    "title": "How to Pitch to Investors",
+    "tag": "business",
+    "description": "Craft and deliver a pitch that grabs investor attention.",
+    "video_url": "https://www.youtube.com/watch?v=gY0nNKsA2eU"
+  },
+  {
+    "id": 60,
+    "title": "Remote Work and the Modern Workplace",
+    "tag": "business",
+    "description": "Explore how businesses are adapting to the remote work era.",
+    "video_url": "https://www.youtube.com/watch?v=szvE6WhUbwA"
+  },
+  {
+    "id": 61,
+    "title": "Business Analytics for Beginners",
+    "tag": "business",
+    "description": "Learn how data can drive smart business decisions.",
+    "video_url": "https://www.youtube.com/watch?v=F1rZD5sM3pI"
+  },
+  {
+    "id": 62,
+    "title": "Dropshipping: The Truth",
+    "tag": "business",
+    "description": "An honest take on what it takes to succeed with dropshipping.",
+    "video_url": "https://www.youtube.com/watch?v=7FxQ3e9y6Xo"
+  },
+  {
+    "id": 63,
+    "title": "Leadership Lessons from Top CEOs",
+    "tag": "business",
+    "description": "Insights from leading CEOs on running successful companies.",
+    "video_url": "https://www.youtube.com/watch?v=ttvXg6Jm2BQ"
+  },
+  {
+    "id": 64,
+    "title": "E-commerce Success Stories",
+    "tag": "business",
+    "description": "How entrepreneurs built thriving online stores.",
+    "video_url": "https://www.youtube.com/watch?v=sVCeUb7g_NI"
+  },
+  {
+    "id": 65,
+    "title": "How Franchising Works",
+    "tag": "business",
+    "description": "Understand the pros and cons of starting a franchise.",
+    "video_url": "https://www.youtube.com/watch?v=6UEdZStnHhQ"
+  },
+  {
+    "id": 66,
+    "title": "The Gig Economy Explained",
+    "tag": "business",
+    "description": "How freelancing and gig work are reshaping the job market.",
+    "video_url": "https://www.youtube.com/watch?v=PlEkE3yaR6I"
+  },
+  {
+    "id": 67,
+    "title": "Digital Marketing in 2025",
+    "tag": "business",
+    "description": "Predictions and tools shaping the future of marketing.",
+    "video_url": "https://www.youtube.com/watch?v=MAI2N96O_VA"
+  },
+  {
+    "id": 68,
+    "title": "Financial Planning for Entrepreneurs",
+    "tag": "business",
+    "description": "Manage your money and build a sustainable business.",
+    "video_url": "https://www.youtube.com/watch?v=VBRH1ZnKJb8"
+  },
+  {
+    "id": 69,
+    "title": "Global Business Trends",
+    "tag": "business",
+    "description": "A look at economic forces reshaping global markets.",
+    "video_url": "https://www.youtube.com/watch?v=IHFh4XYQqkA"
+  },
+  {
+    "id": 70,
+    "title": "Scaling Your Startup",
+    "tag": "business",
+    "description": "How to go from a small team to a high-growth company.",
+    "video_url": "https://www.youtube.com/watch?v=YH-E4Y3EaT4"
+  },
+  {
+    "id": 71,
+    "title": "How to Negotiate Your Salary: Watch and Learn",
+    "tag": "business",
+    "description": "Strategies and real examples to confidently negotiate your salary.",
+    "video_url": "https://www.youtube.com/watch?v=kBIN2h16Rc4"
+  },
+  {
+    "id": 72,
+    "title": "What is Crisis Management? And Why is it Important?",
+    "tag": "business",
+    "description": "An in‑depth look at crisis management principles and real‑world cases.",
+    "video_url": "https://www.youtube.com/watch?v=eL6j9A9H7Yo"
+  },
+  {
+    "id": 73,
+    "title": "How to Negotiate Salary After Job Offer | 5 Practical Tips",
+    "tag": "business",
+    "description": "Concrete steps to follow when negotiating after receiving an offer.",
+    "video_url": "https://www.youtube.com/watch?v=J30wmYgzVXM"
+  },
+  {
+    "id": 74,
+    "title": "What is Crisis Management? (With Real World Examples)",
+    "tag": "business",
+    "description": "Examining crisis situations like Airbnb and Toyota with actionable insights.",
+    "video_url": "https://www.youtube.com/watch?v=9ruDt60mHm0"
+  },
+  {
+    "id": 75,
+    "title": "Best Tips for Salary Negotiation in an Interview",
+    "tag": "business",
+    "description": "Proven techniques to elevate your negotiation game during interviews.",
+    "video_url": "https://www.youtube.com/watch?v=haiBy2fDWhU"
+  },
+  {
+    "id": 76,
+    "title": "Street Style Diaries: Global Fashion Tour",
+    "tag": "fashion",
+    "description": "Explore the hottest street style trends from Tokyo to Paris.",
+    "video_url": "https://www.youtube.com/watch?v=StreetStyleTour123"
+  },
+  {
+    "id": 77,
+    "title": "Sustainable Wardrobe Essentials",
+    "tag": "fashion",
+    "description": "Learn how to build an eco-friendly closet with timeless pieces.",
+    "video_url": "https://www.youtube.com/watch?v=SustainableWardrobe456"
+  },
+  {
+    "id": 78,
+    "title": "Hairstyles That Elevate Your Outfit",
+    "tag": "fashion",
+    "description": "Step-by-step tutorials for chic hairstyles that match any look.",
+    "video_url": "https://www.youtube.com/watch?v=FashionHair789"
+  },
+  {
+    "id": 79,
+    "title": "Accessorizing Like a Pro",
+    "tag": "fashion",
+    "description": "Master the art of pairing jewelry, bags & belts for standout style.",
+    "video_url": "https://www.youtube.com/watch?v=AccPro101"
+  },
+  {
+    "id": 80,
+    "title": "Power Dressing for the Modern Professional",
+    "tag": "fashion",
+    "description": "Curate sharp, confident outfits for work and beyond.",
+    "video_url": "https://www.youtube.com/watch?v=PowerDress202"
+  },
+  {
+    "id": 81,
+    "title": "Vintage Fashion Haul & Try-On",
+    "tag": "fashion",
+    "description": "Discover hidden gems from thrift shops and how to style them.",
+    "video_url": "https://www.youtube.com/watch?v=VintageHaul303"
+  },
+  {
+    "id": 82,
+    "title": "DIY Tie-Dye & Upcycling Clothes",
+    "tag": "fashion",
+    "description": "Get creative with colorful tie-dye and fashionable upcycles.",
+    "video_url": "https://www.youtube.com/watch?v=DIYTieDye404"
+  },
+  {
+    "id": 83,
+    "title": "Seasonal Capsule Wardrobe Guide",
+    "tag": "fashion",
+    "description": "Build a minimalistic wardrobe that transitions through seasons.",
+    "video_url": "https://www.youtube.com/watch?v=CapsuleGuide505"
+  },
+  {
+    "id": 84,
+    "title": "Men’s Suit Styling Tips",
+    "tag": "fashion",
+    "description": "From fit to fabric—how to rock a suit for any occasion.",
+    "video_url": "https://www.youtube.com/watch?v=SuitTips606"
+  },
+  {
+    "id": 85,
+    "title": "Bold Prints: Mixing Patterns with Confidence",
+    "tag": "fashion",
+    "description": "Learn to pair prints and patterns without overdoing it.",
+    "video_url": "https://www.youtube.com/watch?v=Prints2025"
+  },
+  {
+    "id": 86,
+    "title": "Athleisure Looks That Work All Day",
+    "tag": "fashion",
+    "description": "Create comfy yet stylish athleisure outfits for errands to brunch.",
+    "video_url": "https://www.youtube.com/watch?v=AthleisureChic707"
+  },
+  {
+    "id": 87,
+    "title": "Shoe Collection Tour & Care Tips",
+    "tag": "fashion",
+    "description": "Organize, style, and maintain your footwear collection.",
+    "video_url": "https://www.youtube.com/watch?v=ShoeCare808"
+  },
+  {
+    "id": 88,
+    "title": "Styling Oversized Blazers",
+    "tag": "fashion",
+    "description": "Transform a basic blazer into multiple statement outfits.",
+    "video_url": "https://www.youtube.com/watch?v=BlazerStyle909"
+  },
+  {
+    "id": 89,
+    "title": "Color Theory for Everyday Outfits",
+    "tag": "fashion",
+    "description": "Mix and match colors like a pro using simple fashion rules.",
+    "video_url": "https://www.youtube.com/watch?v=ColorTheory1010"
+  },
+  {
+    "id": 90,
+    "title": "DIY Denim Customizations",
+    "tag": "fashion",
+    "description": "Customize jeans and jackets with patches, distressing & paint.",
+    "video_url": "https://www.youtube.com/watch?v=DenimDIY111"
+  },
+  {
+    "id": 91,
+    "title": "Red Carpet Looks: Behind the Scenes",
+    "tag": "fashion",
+    "description": "See how stylists prep stars for the most glamorous events.",
+    "video_url": "https://www.youtube.com/watch?v=RedCarpetBehind222"
+  },
+  {
+    "id": 92,
+    "title": "Fashion on a Budget: Smart Shopping Hacks",
+    "tag": "fashion",
+    "description": "Find stylish pieces without breaking the bank—here’s how.",
+    "video_url": "https://www.youtube.com/watch?v=BudgetFashion333"
+  },
+  {
+    "id": 93,
+    "title": "Sustainable Shoe Brands You’ll Love",
+    "tag": "fashion",
+    "description": "Reviewing eco-conscious footwear brands making a difference.",
+    "video_url": "https://www.youtube.com/watch?v=EcoShoes444"
+  },
+  {
+    "id": 94,
+    "title": "Gender-Neutral Fashion Trends",
+    "tag": "fashion",
+    "description": "Explore styles that transcend traditional gender norms.",
+    "video_url": "https://www.youtube.com/watch?v=NeutralFashion555"
+  },
+  {
+    "id": 95,
+    "title": "High Fashion to Real Life: Designer Dupes",
+    "tag": "fashion",
+    "description": "Look like a million bucks without spending it—styled dupe outfits.",
+    "video_url": "https://www.youtube.com/watch?v=DupeFashion666"
+  },
+  {
+    "id": 96,
+    "title": "Workwear to Weekend: Outfit Transitions",
+    "tag": "fashion",
+    "description": "Take a look from desk-ready to weekend-chic in minutes.",
+    "video_url": "https://www.youtube.com/watch?v=WorkWeekend777"
+  },
+  {
+    "id": 97,
+    "title": "Boho Chic: Mastering Free-Spirited Style",
+    "tag": "fashion",
+    "description": "Flowy garments, earthy tones & accessories to nail the boho vibe.",
+    "video_url": "https://www.youtube.com/watch?v=BohoChic888"
+  },
+  {
+    "id": 98,
+    "title": "The Evolution of Denim",
+    "tag": "fashion",
+    "description": "Trace jean styles from the '50s to today’s trends.",
+    "video_url": "https://www.youtube.com/watch?v=DenimHistory999"
+  },
+  {
+    "id": 99,
+    "title": "Evening Gowns: Fit & Flare Secrets",
+    "tag": "fashion",
+    "description": "Nail formal events with gowns that wow & flatter your figure.",
+    "video_url": "https://www.youtube.com/watch?v=GownSecrets1011"
+  },
+  {
+    "id": 100,
+    "title": "Layering Basics for Cooler Seasons",
+    "tag": "fashion",
+    "description": "Build stylish layered outfits to stay warm in style.",
+    "video_url": "https://www.youtube.com/watch?v=LayeringBasics1212"
+  },
+  {
+    "id": 101,
+    "title": "The Science of Sleep: Tips for Better Rest",
+    "tag": "health_and_fitness",
+    "description": "Learn how to improve your sleep quality with proven scientific methods.",
+    "video_url": "https://www.youtube.com/watch?v=t0kACis_dJE"
+  },
+  {
+    "id": 102,
+    "title": "Yoga for Beginners: Start Your Journey",
+    "tag": "health_and_fitness",
+    "description": "A gentle introduction to yoga for absolute beginners.",
+    "video_url": "https://www.youtube.com/watch?v=v7AYKMP6rOE"
+  },
+  {
+    "id": 103,
+    "title": "Home Workouts: No Equipment Needed",
+    "tag": "health_and_fitness",
+    "description": "Stay fit with these effective bodyweight exercises at home.",
+    "video_url": "https://www.youtube.com/watch?v=UBMk30rjy0o"
+  },
+  {
+    "id": 104,
+    "title": "HIIT Workouts: Burn Calories Fast",
+    "tag": "health_and_fitness",
+    "description": "High-intensity interval training routines for all levels.",
+    "video_url": "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+  },
+  {
+    "id": 105,
+    "title": "Heart Health: Daily Habits That Matter",
+    "tag": "health_and_fitness",
+    "description": "Small changes that can make a big difference for your heart.",
+    "video_url": "https://www.youtube.com/watch?v=zKLaF2SS1v0"
+  },
+  {
+    "id": 106,
+    "title": "Pilates: Strength and Flexibility",
+    "tag": "health_and_fitness",
+    "description": "Improve your core strength and flexibility with Pilates.",
+    "video_url": "https://www.youtube.com/watch?v=P-3WEOSzD3A"
+  },
+  {
+    "id": 107,
+    "title": "Strength Training for Longevity",
+    "tag": "health_and_fitness",
+    "description": "Build muscle and stay healthy as you age.",
+    "video_url": "https://www.youtube.com/watch?v=_yi5UAm4mYs"
+  },
+  {
+    "id": 108,
+    "title": "Mental Health: Coping with Stress",
+    "tag": "health_and_fitness",
+    "description": "Strategies to manage stress and improve well-being.",
+    "video_url": "https://www.youtube.com/watch?v=ctT1hl6CUlU"
+  },
+  {
+    "id": 109,
+    "title": "Running: Building Endurance Safely",
+    "tag": "health_and_fitness",
+    "description": "Gradually increase your stamina and avoid injuries.",
+    "video_url": "https://www.youtube.com/watch?v=7MEhDlw1e9k"
+  },
+  {
+    "id": 110,
+    "title": "Immunity Boosters: Foods That Help",
+    "tag": "health_and_fitness",
+    "description": "Eat your way to a stronger immune system.",
+    "video_url": "https://www.youtube.com/watch?v=Zqz41UyJjCo"
+  },
+  {
+    "id": 111,
+    "title": "Breathing Techniques for Relaxation",
+    "tag": "health_and_fitness",
+    "description": "Simple breathing exercises to calm your mind.",
+    "video_url": "https://www.youtube.com/watch?v=RHpTR2wRc8c"
+  },
+  {
+    "id": 112,
+    "title": "Healthy Joints: Movement Matters",
+    "tag": "health_and_fitness",
+    "description": "Keep your joints healthy with these daily habits.",
+    "video_url": "https://www.youtube.com/watch?v=3cQuTY4wtMk"
+  },
+  {
+    "id": 113,
+    "title": "Healthy Back: Posture and Exercises",
+    "tag": "health_and_fitness",
+    "description": "Prevent back pain with these simple exercises.",
+    "video_url": "https://www.youtube.com/watch?v=BPlCatqZRPI"
+  },
+  {
+    "id": 114,
+    "title": "Staying Hydrated: Why Water Matters",
+    "tag": "health_and_fitness",
+    "description": "The importance of hydration for overall health.",
+    "video_url": "https://www.youtube.com/watch?v=y_JztnHf3uA"
+  },
+  {
+    "id": 115,
+    "title": "Healthy Eyes: Screen Time Tips",
+    "tag": "health_and_fitness",
+    "description": "Protect your vision in a digital world.",
+    "video_url": "https://www.youtube.com/watch?v=9wAP6UsDv1o"
+  },
+  {
+    "id": 116,
+    "title": "Healthy Aging: Lifestyle Choices",
+    "tag": "health_and_fitness",
+    "description": "Simple habits to age gracefully and stay active.",
+    "video_url": "https://www.youtube.com/watch?v=Q6zLw8ETpAE"
+  },
+  {
+    "id": 117,
+    "title": "Strengthen Your Immune System Naturally",
+    "tag": "health_and_fitness",
+    "description": "Natural ways to keep your immune system strong.",
+    "video_url": "https://www.youtube.com/watch?v=EcNZmQmI5b0"
+  },
+  {
+    "id": 118,
+    "title": "Healthy Skin: Daily Routines",
+    "tag": "health_and_fitness",
+    "description": "Simple routines for glowing, healthy skin.",
+    "video_url": "https://www.youtube.com/watch?v=DS3PKoxJ9iM"
+  },
+  {
+    "id": 119,
+    "title": "Healthy Habits: Morning to Night",
+    "tag": "health_and_fitness",
+    "description": "Build healthy routines for a better life.",
+    "video_url": "https://www.youtube.com/watch?v=UiPoY2XrMGE"
+  },
+  {
+    "id": 120,
+    "title": "Healthy Lungs: Breathing Deep",
+    "tag": "health_and_fitness",
+    "description": "Exercises to strengthen your lungs.",
+    "video_url": "https://www.youtube.com/watch?v=vfO0Wb8CqI0"
+  },
+  {
+    "id": 121,
+    "title": "Healthy Mind: Meditation Basics",
+    "tag": "health_and_fitness",
+    "description": "Start meditating with these simple techniques.",
+    "video_url": "https://www.youtube.com/watch?v=inpok4MKVLM"
+  },
+  {
+    "id": 122,
+    "title": "Healthy Heart: Cardio Workouts",
+   "tag": "health_and_fitness",
+    "description": "Boost your heart health with these exercises.",
+    "video_url": "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+  },
+  {
+    "id": 123,
+    "title": "Healthy Bones: Nutrition and Exercise",
+    "tag": "health_and_fitness",
+    "description": "Keep your bones strong with these tips.",
+    "video_url": "https://www.youtube.com/watch?v=V3tT4VtUYhc"
+  },
+  {
+    "id": 124,
+    "title": "Healthy Gut: Probiotics Explained",
+    "tag": "health_and_fitness",
+    "description": "How probiotics can improve your digestive health.",
+    "video_url": "https://www.youtube.com/watch?v=1f4_kZzr4qs"
+  },
+  {
+    "id": 125,
+    "title": "Healthy Sleep: Establishing a Routine",
+    "tag": "health_and_fitness",
+    "description": "Tips for creating a sleep-friendly environment.",
+    "video_url": "https://www.youtube.com/watch?v=ztq2n6RFDg4"
+  },
+  {
+    "id": 126,
+    "title": "Epic Mountain Bike Trails in 2025",
+    "tag": "sports",
+    "description": "Discover the most thrilling mountain bike trails opening this year.",
+    "video_url": "https://www.youtube.com/watch?v=gvXKmVgCtFE"
+  },
+  {
+    "id": 127,
+    "title": "Trail Running: Tips for Beginners",
+    "tag": "sports",
+    "description": "Everything you need to know to start trail running safely.",
+    "video_url": "https://www.youtube.com/watch?v=C3wAbJ2wDMM"
+  },
+  {
+    "id": 128,
+    "title": "The World of Competitive Chess",
+    "tag": "sports",
+    "description": "Inside the minds of grandmasters and the rise of online chess.",
+    "video_url": "https://www.youtube.com/watch?v=ntz3zGQHFrE"
+  },
+  {
+    "id": 129,
+    "title": "Cycling for Fitness: Getting Started",
+    "tag": "sports",
+    "description": "A beginner’s guide to cycling for health and fun.",
+    "video_url": "https://www.youtube.com/watch?v=70KyPmXnbnM"
+  },
+  {
+    "id": 130,
+    "title": "Rock Climbing: Indoor vs Outdoor",
+    "tag": "sports",
+    "description": "Comparing the challenges and thrills of both climbing styles.",
+    "video_url": "https://www.youtube.com/watch?v=LrtFJk0Amqs"
+  },
+  {
+    "id": 131,
+    "title": "Football Tactics: The Modern Game",
+    "tag": "sports",
+    "description": "A deep dive into the strategies shaping today’s football.",
+    "video_url": "https://www.youtube.com/watch?v=pjiegk27Lsg"
+  },
+  {
+    "id": 132,
+    "title": "Basketball: Shooting Techniques",
+    "tag": "sports",
+    "description": "Master the art of shooting with these expert tips.",
+    "video_url": "https://www.youtube.com/watch?v=UcnB9e5O5NY"
+  },
+  {
+    "id": 133,
+    "title": "Tennis: Mastering the Serve",
+    "tag": "sports",
+    "description": "Techniques to improve your tennis serve and win more matches.",
+    "video_url": "https://www.youtube.com/watch?v=NMbJfSZpnHM"
+  },
+  {
+    "id": 134,
+    "title": "Swimming: Techniques for Speed",
+    "tag": "sports",
+    "description": "Swim faster with these proven training methods.",
+    "video_url": "https://www.youtube.com/watch?v=2KhqIa5ates"
+  },
+  {
+    "id": 135,
+    "title": "Cricket: Bowling Masterclass",
+    "tag": "sports",
+    "description": "Learn advanced bowling techniques from the pros.",
+    "video_url": "https://www.youtube.com/watch?v=NQmeGX3LjvE"
+  },
+  {
+    "id": 136,
+    "title": "Table Tennis: Spin and Serve",
+    "tag": "sports",
+    "description": "Master the techniques for unbeatable serves.",
+    "video_url": "https://www.youtube.com/watch?v=2GYfx7i2kk8"
+  },
+  {
+    "id": 137,
+    "title": "Martial Arts: Self-Defense Basics",
+    "tag": "sports",
+    "description": "Learn the foundational moves of self-defense.",
+    "video_url": "https://www.youtube.com/watch?v=OU9nlBKKPmI"
+  },
+  {
+    "id": 138,
+    "title": "Golf: Perfecting Your Swing",
+    "tag": "sports",
+    "description": "Tips to improve your golf swing and lower your score.",
+    "video_url": "https://www.youtube.com/watch?v=k0NoR3epIBs"
+  },
+  {
+    "id": 139,
+    "title": "Volleyball: Setting and Spiking",
+    "tag": "sports",
+    "description": "Improve your volleyball game with expert techniques.",
+    "video_url": "https://www.youtube.com/watch?v=GT-kSQkxYcE"
+  },
+  {
+    "id": 140,
+    "title": "Baseball: Hitting Fundamentals",
+    "tag": "sports",
+    "description": "Learn the basics of hitting for baseball success.",
+    "video_url": "https://www.youtube.com/watch?v=UcnB9e5O5NY"
+  },
+  {
+    "id": 141,
+    "title": "Badminton: Smash Like a Pro",
+    "tag": "sports",
+    "description": "Techniques to master the badminton smash.",
+    "video_url": "https://www.youtube.com/watch?v=UeOzxNFJ86Y"
+  },
+  {
+    "id": 142,
+    "title": "Soccer: Dribbling Skills",
+    "tag": "sports",
+    "description": "Improve your soccer dribbling with these drills.",
+    "video_url": "https://www.youtube.com/watch?v=1S1tPEyBJvo"
+  },
+  {
+    "id": 143,
+    "title": "Basketball: Defense Strategies",
+    "tag": "sports",
+    "description": "Learn to defend like a pro on the basketball court.",
+    "video_url": "https://www.youtube.com/watch?v=dfbIAOXDPFk"
+  },
+  {
+    "id": 144,
+    "title": "Tennis: Footwork Fundamentals",
+    "tag": "sports",
+    "description": "Improve your tennis game with better footwork.",
+    "video_url": "https://www.youtube.com/watch?v=8DArz4znfWM"
+  },
+  {
+    "id": 145,
+    "title": "Soccer: Goalkeeping Essentials",
+    "tag": "sports",
+    "description": "Key techniques for aspiring goalkeepers.",
+    "video_url": "https://www.youtube.com/watch?v=y5QCBF7GIxc"
+  },
+  {
+    "id": 146,
+    "title": "Basketball: Passing Mastery",
+    "tag": "sports",
+    "description": "Improve your passing skills for team success.",
+    "video_url": "https://www.youtube.com/watch?v=3--urvppqtU"
+  },
+  {
+    "id": 147,
+    "title": "Tennis: Backhand Perfection",
+    "tag": "sports",
+    "description": "Master your backhand with these drills.",
+    "video_url": "https://www.youtube.com/watch?v=6998O764rKU"
+  },
+  {
+    "id": 148,
+    "title": "Soccer: Shooting Drills",
+    "tag": "sports",
+    "description": "Improve your accuracy with these shooting drills.",
+    "video_url": "https://www.youtube.com/watch?v=JB9PsFq5oe8"
+  },
+  {
+    "id": 149,
+    "title": "Basketball: Rebounding Techniques",
+    "tag": "sports",
+    "description": "Dominate the boards with these rebounding skills.",
+    "video_url": "https://www.youtube.com/watch?v=J6_-SaW_GUE"
+  },
+  {
+    "id": 150,
+    "title": "Soccer: Passing Drills",
+    "tag": "sports",
+    "description": "Sharpen your passing skills with these drills.",
+    "video_url": "https://www.youtube.com/watch?v=JB9PsFq5oe8"
+  },
+  {
+    "id": 151,
+    "title": "Virtual Reality in Modern Education",
+    "tag": "education",
+    "description": "How VR is making classrooms more interactive and engaging for students.",
+    "video_url": "https://www.youtube.com/watch?v=JTJSu5H6eGA"
+  },
+  {
+    "id": 152,
+    "title": "Online Learning: Tips for Success",
+    "tag": "education",
+    "description": "Maximize your learning with effective online study habits.",
+    "video_url": "https://www.youtube.com/watch?v=x7KFFj8VFs0"
+  },
+  {
+    "id": 153,
+    "title": "STEM for Kids: Fun Experiments",
+    "tag": "education",
+    "description": "Engage children with easy and fun science experiments.",
+    "video_url": "https://www.youtube.com/watch?v=WogQ0X4ITHM"
+  },
+  {
+    "id": 154,
+    "title": "Language Learning: Daily Practice",
+    "tag": "education",
+    "description": "How to make language learning part of your daily routine.",
+    "video_url": "https://www.youtube.com/watch?v=JoPxUbcKt8M"
+  },
+  {
+    "id": 155,
+    "title": "Coding for Beginners: Start Here",
+    "tag": "education",
+    "description": "A simple introduction to computer programming.",
+    "video_url": "https://www.youtube.com/watch?v=8SCdrxcc-2s"
+  },
+  {
+    "id": 156,
+    "title": "History’s Greatest Inventions",
+    "tag": "education",
+    "description": "Explore the inventions that changed the world.",
+    "video_url": "https://www.youtube.com/watch?v=KV27xoxbR3I"
+  },
+  {
+    "id": 157,
+    "title": "Math Tricks: Speed Up Calculations",
+    "tag": "education",
+    "description": "Learn mental math tricks for quick calculations.",
+    "video_url": "https://www.youtube.com/watch?v=qwWyBx86gOs"
+  },
+  {
+    "id": 158,
+    "title": "Study Hacks: Ace Your Exams",
+    "tag": "education",
+    "description": "Proven techniques to study smarter, not harder.",
+    "video_url": "https://www.youtube.com/watch?v=NX4nSjEPksQ"
+  },
+  {
+    "id": 159,
+    "title": "Public Speaking: Overcome Fear",
+    "tag": "education",
+    "description": "Build confidence and improve your public speaking skills.",
+    "video_url": "https://www.youtube.com/watch?v=aImrjNPrh30"
+  },
+  {
+    "id": 160,
+    "title": "Financial Literacy for Teens",
+    "tag": "education",
+    "description": "Essential money management skills for young people.",
+    "video_url": "https://www.youtube.com/watch?v=QQrpD9rlJR0"
+  },
+  {
+    "id": 161,
+    "title": "Critical Thinking: Analyze Like a Pro",
+    "tag": "education",
+    "description": "Develop your analytical skills for better decision making.",
+    "video_url": "https://www.youtube.com/watch?v=NX4nSjEPksQ"
+  },
+  {
+    "id": 162,
+    "title": "Essay Writing: Structure and Style",
+    "tag": "education",
+    "description": "Tips for writing clear and effective essays.",
+    "video_url": "https://www.youtube.com/watch?v=7P4fzbzwwAg"
+  },
+  {
+    "id": 163,
+    "title": "Science in Everyday Life",
+    "tag": "education",
+    "description": "Discover the science behind daily phenomena.",
+    "video_url": "https://www.youtube.com/watch?v=gt_Cm0eBPXY"
+  },
+  {
+    "id": 164,
+    "title": "Reading Comprehension: Boost Skills",
+    "tag": "education",
+    "description": "Strategies to improve your reading and retention.",
+    "video_url": "https://www.youtube.com/watch?v=8Y8Mb2RuvDM"
+  },
+  {
+    "id": 165,
+    "title": "Geography: Explore the World",
+    "tag": "education",
+    "description": "Fun facts and lessons about our planet.",
+    "video_url": "https://www.youtube.com/watch?v=W0wTC7Toc3s"
+  },
+  {
+    "id": 166,
+    "title": "Art History: Masters and Movements",
+    "tag": "education",
+    "description": "A journey through the most influential art movements.",
+    "video_url": "https://www.youtube.com/watch?v=T6Mc8YL70hQ"
+  },
+  {
+    "id": 167,
+    "title": "Environmental Science: Our Changing Earth",
+    "tag": "education",
+    "description": "Learn about climate change and sustainability.",
+    "video_url": "https://www.youtube.com/watch?v=EE_UNQZTxgw"
+  },
+  {
+    "id": 168,
+    "title": "Music Theory Basics",
+    "tag": "education",
+    "description": "An introduction to the fundamentals of music theory.",
+    "video_url": "https://www.youtube.com/watch?v=rgaTLrZGlk0"
+  },
+  {
+    "id": 169,
+    "title": "Debate Skills: Argue Effectively",
+    "tag": "education",
+    "description": "How to build and defend strong arguments.",
+    "video_url": "https://www.youtube.com/watch?v=NX4nSjEPksQ"
+  },
+  {
+    "id": 170,
+    "title": "Biology: The Living World",
+    "tag": "education",
+    "description": "Explore the diversity of life on Earth.",
+    "video_url": "https://www.youtube.com/watch?v=_ZizKQqHNgI"
+  },
+  {
+    "id": 171,
+    "title": "Physics: Forces and Motion",
+    "tag": "education",
+    "description": "Understand the basics of motion and forces.",
+    "video_url": "https://www.youtube.com/watch?v=Kj-BtEuvg98"
+  },
+  {
+    "id": 172,
+    "title": "Chemistry: Atoms and Molecules",
+    "tag": "education",
+    "description": "The building blocks of matter explained.",
+    "video_url": "https://www.youtube.com/watch?v=FSyAehMdpyI"
+  },
+  {
+    "id": 173,
+    "title": "Philosophy: Big Questions",
+    "tag": "education",
+    "description": "Discuss the greatest philosophical questions of all time.",
+    "video_url": "https://www.youtube.com/watch?v=HnrdXxQkvUc"
+  },
+  {
+    "id": 174,
+    "title": "Economics: How Markets Work",
+    "tag": "education",
+    "description": "A simple guide to supply, demand, and markets.",
+    "video_url": "https://www.youtube.com/watch?v=G3_cmapLNKg"
+  },
+  {
+    "id": 175,
+    "title": "World Literature: Stories That Inspire",
+    "tag": "education",
+    "description": "Read and discuss influential works from around the globe.",
+    "video_url": "https://www.youtube.com/watch?v=7ttw2nL1S64"
+  },
+  {
+    "id": 176,
+    "title": "Top Upcoming RPGs of 2025",
+    "tag": "gaming",
+    "description": "A preview of the most anticipated role‑playing games releasing this year. (~10 min)",
+    "video_url": "https://www.youtube.com/watch?v=p7tV1OmwoPE"
+  },
+  {
+    "id": 177,
+    "title": "Esports Highlights: Epic Moments",
+    "tag": "gaming",
+    "description": "Relive the most thrilling plays from recent esports tournaments. (~8 min)",
+    "video_url": "https://www.youtube.com/watch?v=h2EM7_qTC1g"
+  },
+  {
+    "id": 178,
+    "title": "Indie Games: Hidden Gems",
+    "tag": "gaming",
+    "description": "Discover outstanding indie games flying under the radar. (~6 min)",
+    "video_url": "https://www.youtube.com/watch?v=grttK32hXEE"
+  },
+  {
+    "id": 179,
+    "title": "Multiplayer Mayhem: Best Co‑op Games",
+    "tag": "gaming",
+    "description": "Explore exhilarating co‑op and multiplayer titles to play with friends. (~7 min)",
+    "video_url": "https://www.youtube.com/watch?v=qt4KCBpThl4"
+  },
+  {
+    "id": 180,
+    "title": "Speedrun Session: World Records",
+    "tag": "gaming",
+    "description": "Check out jaw‑dropping speedruns from the world’s best gamers. (~12 min)",
+    "video_url": "https://www.youtube.com/watch?v=rgqz5MAsbQU"
+  },
+  {
+    "id": 181,
+    "title": "VR Adventures: Immersive Experiences",
+    "tag": "gaming",
+    "description": "Step into virtual worlds with top VR titles of the year. (~9 min)",
+    "video_url": "https://www.youtube.com/watch?v=qt4KCBpThl4"
+  },
+  {
+    "id": 182,
+    "title": "Fighting Game Showdown: Combos & Clashes",
+    "tag": "gaming",
+    "description": "Intense face‑offs and pro combos in the fighting game scene. (~5 min)",
+    "video_url": "https://www.youtube.com/watch?v=p7tV1OmwoPE"
+  },
+  {
+    "id": 183,
+    "title": "Battle Royale: Last-One-Standing Wins",
+    "tag": "gaming",
+    "description": "High‑stakes highlights from the latest BR matches. (~11 min)",
+    "video_url": "https://www.youtube.com/watch?v=qt4KCBpThl4"
+  },
+  {
+    "id": 184,
+    "title": "Simulation Games: Build to Perfection",
+    "tag": "gaming",
+    "description": "Create, design, and simulate in these top simulation titles. (~6 min)",
+    "video_url": "https://www.youtube.com/watch?v=h2EM7_qTC1g"
+  },
+  {
+    "id": 185,
+    "title": "Strategy Masters: Epic Campaigns",
+    "tag": "gaming",
+    "description": "Command armies and conquer foes in the best strategy games. (~8 min)",
+    "video_url": "https://www.youtube.com/watch?v=grttK32hXEE"
+  },
+  {
+    "id": 186,
+    "title": "Game Trailers: Upcoming Releases",
+    "tag": "gaming",
+    "description": "Get hyped with trailers for this year’s hottest games. (~4 min)",
+    "video_url": "https://www.youtube.com/watch?v=p7tV1OmwoPE"
+  },
+  {
+    "id": 187,
+    "title": "Speed Builds: Minecraft Creations",
+    "tag": "gaming",
+    "description": "Incredible builds and creations from Minecraft masters. (~7 min)",
+    "video_url": "https://www.youtube.com/watch?v=grttK32hXEE"
+  },
+  {
+    "id": 188,
+    "title": "Mobile Gaming: Top Picks",
+    "tag": "gaming",
+    "description": "The best mobile games you should be playing right now. (~5 min)",
+    "video_url": "https://www.youtube.com/watch?v=h2EM7_qTC1g"
+  },
+  {
+    "id": 189,
+    "title": "Retro Revivals: Classic Game Return",
+    "tag": "gaming",
+    "description": "Celebrate remakes and reboots of beloved retro classics. (~6 min)",
+    "video_url": "https://www.youtube.com/watch?v=p7tV1OmwoPE"
+  },
+  {
+    "id": 190,
+    "title": "Controller vs. Keyboard: Pro Debate",
+    "tag": "gaming",
+    "description": "Pros and cons of controllers and keyboard setups debated by pros. (~5 min)",
+    "video_url": "https://www.youtube.com/watch?v=qt4KCBpThl4"
+  },
+  {
+    "id": 191,
+    "title": "Game Soundtracks: Epic Scores",
+    "tag": "gaming",
+    "description": "Immerse yourself in powerful music from popular game soundtracks. (~4 min)",
+    "video_url": "https://www.youtube.com/watch?v=h2EM7_qTC1g"
+  },
+  {
+    "id": 192,
+    "title": "Let’s Play: Horror Game Reactions",
+    "tag": "gaming",
+    "description": "Jump scares and reactions in the latest horror game walkthroughs. (~9 min)",
+    "video_url": "https://www.youtube.com/watch?v=qt4KCBpThl4"
+  },
+  {
+    "id": 193,
+    "title": "Platformers: Precision Play",
+    "tag": "gaming",
+    "description": "Tight jumps and slick moves in today’s best platformer titles. (~5 min)",
+    "video_url": "https://www.youtube.com/watch?v=grttK32hXEE"
+  },
+  {
+    "id": 194,
+    "title": "Racing Rivals: High-Speed Action",
+    "tag": "gaming",
+    "description": "Race at breakneck speeds in top racing game showdowns. (~7 min)",
+    "video_url": "https://www.youtube.com/watch?v=p7tV1OmwoPE"
+  },
+  {
+    "id": 195,
+    "title": "Puzzle Games: Brain Teasers",
+    "tag": "gaming",
+    "description": "Sharpen your mind with engaging puzzle and logic titles. (~5 min)",
+    "video_url": "https://www.youtube.com/watch?v=h2EM7_qTC1g"
+  },
+  {
+    "id": 196,
+    "title": "Sandbox Survival: Toughest Challenges",
+    "tag": "gaming",
+    "description": "Survive and thrive in harsh sandbox survival worlds. (~8 min)",
+    "video_url": "https://www.youtube.com/watch?v=qt4KCBpThl4"
+  },
+  {
+    "id": 197,
+    "title": "Game Development: Dev Diary",
+    "tag": "gaming",
+    "description": "Behind‑the‑scenes look at developers working on new titles. (~6 min)",
+    "video_url": "https://www.youtube.com/watch?v=grttK32hXEE"
+  },
+  {
+    "id": 198,
+    "title": "Speedrun Tutorials: How to Optimize",
+    "tag": "gaming",
+    "description": "Learn techniques to shave seconds off your speedruns. (~7 min)",
+    "video_url": "https://www.youtube.com/watch?v=rgqz5MAsbQU"
+  },
+  {
+    "id": 199,
+    "title": "Open World Games: Massive Realms",
+    "tag": "gaming",
+    "description": "Explore sprawling open‑world games with breathtaking scope. (~9 min)",
+    "video_url": "https://www.youtube.com/watch?v=qt4KCBpThl4"
+  },
+  {
+    "id": 200,
+    "title": "Game Design Analysis: What Works",
+    "tag": "gaming",
+    "description": "Breakdown of game mechanics and what makes them great. (~8 min)",
+    "video_url": "https://www.youtube.com/watch?v=p7tV1OmwoPE"
+  }
+
+]
