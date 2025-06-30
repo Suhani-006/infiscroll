@@ -44,13 +44,24 @@ function Feed({ selectedCategories = [] }) {
       }}>
         {filteredPhotos.map(photo => (
           <div key={photo.id} style={{
-            background: '#fff',
-            borderRadius: 12,
-            boxShadow: '0 2px 8px #a259ff11',
-            overflow: 'hidden',
-            display: 'flex',
-            flexDirection: 'column',
-          }}>
+  background: 'rgba(255, 255, 255, 0.6)',
+  borderRadius: 16,
+  boxShadow: '0 8px 24px rgb(0, 0, 0)',
+  overflow: 'hidden',
+  display: 'flex',
+  flexDirection: 'column',
+  backdropFilter: 'blur(6px)',
+  transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+}}
+  onMouseEnter={e => {
+    e.currentTarget.style.transform = 'translateY(-4px)';
+    e.currentTarget.style.boxShadow = '0 12px 32px rgba(255,255,255,0.35)';
+  }}
+  onMouseLeave={e => {
+    e.currentTarget.style.transform = 'translateY(0)';
+    e.currentTarget.style.boxShadow = '0 8px 24px rgba(255,255,255,0.3)';
+  }}
+>
             <div
               style={{
                 width: '100%',

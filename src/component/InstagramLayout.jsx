@@ -20,7 +20,10 @@ function InstagramLayout() {
     <div
       style={{
         minHeight: '100vh',
-        background: '#fafafa',
+        background:  'linear-gradient(90deg, #a259ff 0%, #f24e1e 100%)',
+            backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+
         '--sidebar-width': sidebarWidth,
         '--suggestions-width': suggestionsWidth,
         '--mobile-sidebar-height': mobileSidebarHeight,
@@ -58,16 +61,18 @@ function InstagramLayout() {
 
         {/* Feed */}
         <main
-          className="insta-feed"
-          style={{
-            flex: 1,
-            
-            minWidth: 0,
-            marginLeft: 'var(--sidebar-width)',
-            padding: '20px 30px',
-            transition: 'margin 0.3s ease',
-          }}
-        >
+  className="insta-feed"
+  style={{
+    flex: 1,
+    minWidth: 0,
+    marginLeft: 'var(--sidebar-width)',
+    padding: '20px 30px',
+    transition: 'margin 0.3s ease',
+        background:  'linear-gradient(90deg,rgba(161, 89, 255, 0.18) 0%,rgba(242, 79, 30, 0.24) 100%)',
+    borderRadius: 12, // optional for card-style look
+    backdropFilter: 'blur(6px)', // optional blur
+  }}
+>
           <Feed selectedCategories={selectedCategories} />
         </main>
       </div>
