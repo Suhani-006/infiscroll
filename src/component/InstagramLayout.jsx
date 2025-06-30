@@ -45,7 +45,7 @@ function InstagramLayout() {
             minWidth: 'var(--sidebar-width)',
             maxWidth: 'var(--sidebar-width)',
             position: 'fixed',
-            top: 0,
+            top: 50,
             left: 0,
             bottom: 0,
             backgroundColor: '#fff',
