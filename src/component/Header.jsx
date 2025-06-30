@@ -1,16 +1,19 @@
 // Header component for infiScroll app
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { ThemeContext } from '../theme/ThemeContext';
 
 function Header() {
-  const [dark, setDark] = useState(false);
+  const { dark, toggleDark } = useContext(ThemeContext);
   const [search, setSearch] = useState('');
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  const toggleDark = () => setDark((d) => !d);
   const navigate = useNavigate();
+
+  // Use context value directly for theme, do NOT read from localStorage here
+  const isDark = dark;
 
   const handleSearch = () => {
     if (search.trim()) {
@@ -43,8 +46,8 @@ function Header() {
     justifyContent: 'space-between',
     padding: '12px 20px 8px 20px',
     borderBottom: '1px solid #ececec',
-    background: dark ? '#222' : '#fff',
-    color: dark ? '#fff' : '#222',
+    background: isDark ? '#222' : '#fff',
+    color: isDark ? '#fff' : '#222',
     position: 'sticky',
     top: 0,
     zIndex: 100,
@@ -69,7 +72,7 @@ function Header() {
   const searchBarStyle = {
     display: 'flex',
     alignItems: 'center',
-    background: dark ? '#23272f' : '#f5f6fa',
+    background: isDark ? '#23272f' : '#f5f6fa',
     borderRadius: 10,
     padding: '0 12px',
     height: 40,
@@ -177,7 +180,7 @@ function Header() {
                 background: 'transparent',
                 fontSize: 15,
                 width: '100%',
-                color: dark ? '#fff' : '#222',
+                color: isDark ? '#fff' : '#222',
               }}
             />
             <button
@@ -276,38 +279,6 @@ function Header() {
               </svg>
             </button>
           </div>
-
-          {/* Dark/Light Mode */}
-          <button
-            onClick={toggleDark}
-            style={{
-              background: 'none',
-              border: 'none',
-              fontSize: 22,
-              cursor: 'pointer',
-              color: 'inherit',
-              padding: 0,
-              borderRadius: '50%',
-              width: 38,
-              height: 38,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              transition: 'background 0.2s',
-            }}
-            title="Toggle dark/light mode"
-          >
-            {dark ? (
-              <svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2">
-                <circle cx="11" cy="11" r="5" stroke="#fff" />
-                <path d="M11 1v2M11 19v2M4.22 4.22l1.42 1.42M16.36 16.36l1.42 1.42M1 11h2M19 11h2M4.22 17.78l1.42-1.42M16.36 5.64l1.42-1.42" stroke="#fff" />
-              </svg>
-            ) : (
-              <svg width="22" height="22" fill="none" stroke="#222" strokeWidth="2">
-                <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" stroke="#222" />
-              </svg>
-            )}
-          </button>
 
           {/* Profile */}
           <div style={{ position: 'relative' }}>
@@ -424,8 +395,8 @@ function Header() {
               top: 60,
               left: 0,
               width: '100vw',
-              background: dark ? '#23272f' : '#fff',
-              color: dark ? '#fff' : '#222',
+              background: isDark ? '#23272f' : '#fff',
+              color: isDark ? '#fff' : '#222',
               boxShadow: '0 4px 24px #0002',
               zIndex: 999,
               padding: '18px 0 12px 0',
@@ -459,7 +430,7 @@ function Header() {
                     background: 'transparent',
                     fontSize: 15,
                     width: '100%',
-                    color: dark ? '#fff' : '#222',
+                    color: isDark ? '#fff' : '#222',
                   }}
                 />
                 <button
@@ -558,39 +529,6 @@ function Header() {
               <svg width="24" height="24" fill="none" stroke="#222" strokeWidth="2" style={{ color: dark ? '#fff' : '#222' }}>
                 <path d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 0 0 2 2zm6-6V11c0-3.07-1.63-5.64-5-6.32V4a1 1 0 1 0-2 0v.68C7.63 5.36 6 7.92 6 11v5l-1.29 1.29A1 1 0 0 0 6 19h12a1 1 0 0 0 .71-1.71L18 16z" stroke="currentColor" />
               </svg>
-            </button>
-            <button
-              onClick={() => {
-                toggleDark();
-                setShowMobileMenu(false);
-              }}
-              style={{
-                background: 'none',
-                border: 'none',
-                fontSize: 22,
-                cursor: 'pointer',
-                color: 'inherit',
-                padding: 0,
-                borderRadius: '50%',
-                width: 38,
-                height: 38,
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                transition: 'background 0.2s',
-              }}
-              title="Toggle dark/light mode"
-            >
-              {dark ? (
-                <svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2">
-                  <circle cx="11" cy="11" r="5" stroke="#fff" />
-                  <path d="M11 1v2M11 19v2M4.22 4.22l1.42 1.42M16.36 16.36l1.42 1.42M1 11h2M19 11h2M4.22 17.78l1.42-1.42M16.36 5.64l1.42-1.42" stroke="#fff" />
-                </svg>
-              ) : (
-                <svg width="22" height="22" fill="none" stroke="#222" strokeWidth="2">
-                  <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" stroke="#222" />
-                </svg>
-              )}
             </button>
             <div style={{ width: '90%' }}>
               <button

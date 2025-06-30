@@ -16,10 +16,40 @@ function ExploreReels() {
   const [showDescription, setShowDescription] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [allReels, setAllReels] = useState([]);
-  const [liked, setLiked] = useState(false);
-  const [saved, setSaved] = useState(false);
+  const [likedReelIds, setLikedReelIds] = useState(() => {
+    const stored = localStorage.getItem('likedReels');
+    return stored ? JSON.parse(stored) : [];
+  });
+  const [savedReelIds, setSavedReelIds] = useState(() => {
+    const stored = localStorage.getItem('savedReels');
+    return stored ? JSON.parse(stored) : [];
+  });
   const [page, setPage] = useState(1);
   const [loadingMore, setLoadingMore] = useState(false);
+
+  const toggleSave = (reelId) => {
+    let updatedSaves;
+    if (savedReelIds.includes(reelId)) {
+      updatedSaves = savedReelIds.filter(id => id !== reelId);
+    } else {
+      updatedSaves = [...savedReelIds, reelId];
+    }
+    setSavedReelIds(updatedSaves);
+    localStorage.setItem('savedReels', JSON.stringify(updatedSaves));
+  };
+
+
+
+  const toggleLike = (reelId) => {
+    let updatedLikes;
+    if (likedReelIds.includes(reelId)) {
+      updatedLikes = likedReelIds.filter(id => id !== reelId);
+    } else {
+      updatedLikes = [...likedReelIds, reelId];
+    }
+    setLikedReelIds(updatedLikes);
+    localStorage.setItem('likedReels', JSON.stringify(updatedLikes));
+  };
 
   const categories = [
     'All',
@@ -79,11 +109,7 @@ function ExploreReels() {
     setShowDescription(false);
   }, [selectedCategory, allReels]);
 
-  // Reset like/save state on reel change
-  useEffect(() => {
-    setLiked(false);
-    setSaved(false);
-  }, [currentIdx, selectedCategory]);
+ 
 
   const handleNext = React.useCallback(() => {
     setCurrentIdx(idx => (idx + 1 < reels.length ? idx + 1 : 0));
@@ -187,7 +213,7 @@ function ExploreReels() {
         style={{
           display: 'flex',
           flexDirection: 'row',
-          background: '#181818',
+          background: '#fafbfc', // changed to whitish
           height: 'calc(100vh - 63px)',
           width: '100%',
           maxWidth: '100vw',
@@ -211,7 +237,7 @@ function ExploreReels() {
               overflowX: 'auto',
               overflowY: 'hidden',
               padding: '4px 0 6px', // very minimal vertical padding
-              background: '#1a1a1a',
+              background: '#f5f6fa', // whitish for category bar
               position: 'sticky',
               top: 0,
               zIndex: 10,
@@ -252,9 +278,6 @@ function ExploreReels() {
               </button>
             ))}
           </div>
-
-
-
           <main
             style={{
               width: '100%',
@@ -266,7 +289,7 @@ function ExploreReels() {
               margin: 0,
               height: '100vh',
               overflow: 'hidden',
-              backgroundColor: '#181818'
+              backgroundColor: '#fafbfc' // whitish for main area
             }}
           >
             <div
@@ -281,7 +304,7 @@ function ExploreReels() {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'start',
-                background: '#181818'
+                background: '#fafbfc' // whitish for scroll container
               }}
             >
               {currentReel && (
@@ -296,7 +319,8 @@ function ExploreReels() {
                     scrollSnapAlign: 'start',
                     position: 'relative',
                     overflow: 'hidden',
-                    flexDirection: 'column'
+                    flexDirection: 'column',
+                    background: '#fff' // reel card background whitish
                   }}
                 >
                   {/* Reel Video */}
@@ -305,7 +329,7 @@ function ExploreReels() {
                     aspectRatio: '9 / 16',
                     borderRadius: 18,
                     overflow: 'hidden',
-                    background: '#111',
+                    background: '#f5f6fa', // video container whitish
                     boxShadow: '0 8px 32px #000a, 0 1.5px 8px #0007',
                     position: 'relative'
                   }}>
@@ -319,7 +343,7 @@ function ExploreReels() {
                       allowFullScreen
                       style={{
                         border: 'none',
-                        background: '#000',
+                        background: '#fff', // iframe background whitish
                         display: 'block'
                       }}
                     />
@@ -334,21 +358,28 @@ function ExploreReels() {
                     position: 'absolute',
                     bottom: '1.5rem',
                     left: '1.5rem',
-                    color: '#fff',
-                    fontSize: 13,
                     maxWidth: '65vw',
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: 4,
-                    zIndex: 10
+                    gap: 0,
+                    zIndex: 10,
+                    borderRadius: 14,
+                    overflow: 'hidden',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.01) 0%, rgba(40,40,40,0.45) 40%, rgba(0,0,0,0.92) 100%)',
+                    // boxShadow: '0 4px 24px #0005'
                   }}>
+                    background:'line'
+                    {/* Title */}
                     <div style={{
                       display: 'flex',
                       alignItems: 'center',
                       gap: 8,
                       fontWeight: 700,
                       fontSize: 20,
-                      color: '#fff'
+                      color: '#181818',
+                      padding: '10px 18px 6px 18px',
+                      background: 'transparent',
+                      boxShadow: 'none'
                     }}>
                       {currentReel?.title}
                     </div>
@@ -357,11 +388,12 @@ function ExploreReels() {
                       display: 'flex',
                       alignItems: 'center',
                       gap: 14,
-                      margin: '8px 0 4px 0'
+                      margin: '8px 0 4px 18px',
+                      background: 'transparent'
                     }}>
                       <button
                         title="Like"
-                        onClick={() => setLiked(l => !l)}
+                        onClick={() => toggleLike(currentReel.id || currentIdx)}
                         style={{
                           background: '#fff',
                           color: '#e0245e',
@@ -378,15 +410,16 @@ function ExploreReels() {
                           transition: 'all 0.15s'
                         }}
                       >
-                        {liked ? '❤️' : '🤍'}
+                        {likedReelIds.includes(currentReel.id || currentIdx) ? '❤️' : '🤍'}
                       </button>
                       <button
                         title="Save"
-                        onClick={() => setSaved(s => !s)}
+                        onClick={() => toggleSave(currentReel.id || currentIdx)}
                         style={{
-                          background: saved ? '#7c5cff' : '#fff',
-                          color: saved ? '#fff' : '#7c5cff',
-                          border: saved ? 'none' : '2px solid #7c5cff',
+                          background: savedReelIds.includes(currentReel.id || currentIdx) ? '#7c5cff' : '#fff',
+                          color: savedReelIds.includes(currentReel.id || currentIdx) ? '#fff' : '#7c5cff',
+
+                          border: savedReelIds.includes(currentReel.id || currentIdx) ? 'none' : '2px solid #7c5cff',
                           borderRadius: '50%',
                           width: 38,
                           height: 38,
@@ -399,7 +432,7 @@ function ExploreReels() {
                           transition: 'all 0.15s'
                         }}
                       >
-                        {saved ? '🔖' : '📑'}
+                        {savedReelIds.includes(currentReel.id || currentIdx) ? '🔖' : '📑'}
                       </button>
                       <button
                         title="Skip"
@@ -421,16 +454,21 @@ function ExploreReels() {
                         }}
                       >➡️</button>
                     </div>
+                    {/* Description */}
                     <div style={{
-                      fontSize: 16, // increased font size
-                      color: '#ccc',
+                      fontSize: 16,
+                      color: '#fff',
+                      fontWeight: 400, // remove boldness
                       lineHeight: 1.4,
                       wordBreak: 'break-word',
                       maxHeight: '3em',
                       overflow: 'hidden',
-                      position: 'relative'
+                      position: 'relative',
+                      background: 'transparent',
+                      padding: '0 18px 14px 18px',
+                      boxShadow: 'none'
                     }}>
-                      <span style={{ fontWeight: 700, color: '#fff', marginRight: 8 }}>Description:</span>
+                      <span style={{ fontWeight: 400, color: '#fff', marginRight: 8 }}>Description:</span>
                       {showDescription
                         ? currentReel.description
                         : (currentReel.description?.slice(0, 80) || '') + (currentReel.description?.length > 80 ? '...' : '')}
@@ -456,8 +494,7 @@ function ExploreReels() {
               )}
             </div>
           </main>
-
-
+          {/* ...existing code... */}
         </div>
       </div>
     </>

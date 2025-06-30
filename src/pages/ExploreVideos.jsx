@@ -37,6 +37,22 @@ function ExploreVideos() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [modalVideo, setModalVideo] = useState(null);
   const [loadingMore, setLoadingMore] = useState(false);
+  const [likedVideos, setLikedVideos] = useState(() => {
+    try {
+      const data = localStorage.getItem('likedVideos');
+      return data ? JSON.parse(data) : [];
+    } catch {
+      return [];
+    }
+  });
+  const [savedVideos, setSavedVideos] = useState(() => {
+    try {
+      const data = localStorage.getItem('savedVideos');
+      return data ? JSON.parse(data) : [];
+    } catch {
+      return [];
+    }
+  });
   const gridRef = useRef(null);
 
   useEffect(() => {
@@ -84,6 +100,36 @@ function ExploreVideos() {
     grid.addEventListener('scroll', handleScroll);
     return () => grid.removeEventListener('scroll', handleScroll);
   }, [loadingMore]);
+
+  // Like handler: Save liked video to localStorage
+  function handleLike(video) {
+    let liked = likedVideos.slice();
+    if (!liked.some(v => v.id === video.id)) {
+      liked.push(video);
+      setLikedVideos(liked);
+      localStorage.setItem('likedVideos', JSON.stringify(liked));
+    }
+  }
+  function handleUnlike(video) {
+    let liked = likedVideos.filter(v => v.id !== video.id);
+    setLikedVideos(liked);
+    localStorage.setItem('likedVideos', JSON.stringify(liked));
+  }
+
+  // Save handler: Save video to savedVideos in localStorage
+  function handleSave(video) {
+    let saved = savedVideos.slice();
+    if (!saved.some(v => v.id === video.id)) {
+      saved.push(video);
+      setSavedVideos(saved);
+      localStorage.setItem('savedVideos', JSON.stringify(saved));
+    }
+  }
+  function handleUnsave(video) {
+    let saved = savedVideos.filter(v => v.id !== video.id);
+    setSavedVideos(saved);
+    localStorage.setItem('savedVideos', JSON.stringify(saved));
+  }
 
   return (
     <>
@@ -187,7 +233,7 @@ function ExploreVideos() {
                       flexDirection: 'column',
                       alignItems: 'center',
                       transition: 'transform 0.15s, box-shadow 0.15s',
-                      minHeight: 300, // reduced from 420
+                      minHeight: 200, // reduced from 300
                       border: '1px solid #ececec',
                     }}
                     onClick={() => setModalVideo(video)}
@@ -197,7 +243,7 @@ function ExploreVideos() {
                     <div style={{
                       width: '100%',
                       position: 'relative',
-                      paddingTop: '43.75%' // 16:7 aspect ratio (7/16 = 0.4375)
+                      paddingTop: '30%' // reduced aspect ratio for less height
                     }}>
                       <iframe
                         width="100%"
@@ -219,8 +265,25 @@ function ExploreVideos() {
                       />
                     </div>
                     <div style={{ padding: '20px 18px 16px', width: '100%' }}>
-                      <h3 style={{ margin: 0, fontSize: 20, color: '#222', fontWeight: 600, lineHeight: 1.3 }}>{video.title}</h3>
-                      <p style={{ margin: '10px 0 0', fontSize: 15, color: '#444', lineHeight: 1.5 }}>{video.description}</p>
+                      <h3
+                        style={{
+                          margin: 0,
+                          fontSize: 20,
+                          color: '#222',
+                          fontWeight: 600,
+                          lineHeight: 1.3,
+                          textAlign: 'center',
+                          background: '#fff',
+                          boxShadow: '0 2px 8px #6C63FF22',
+                          borderRadius: 12,
+                          padding: '8px 0',
+                          width: '100%',
+                          display: 'inline-block'
+                        }}
+                      >
+                        {video.title}
+                      </h3>
+                      {/* Description removed */}
                     </div>
                   </div>
                 );
@@ -262,11 +325,12 @@ function ExploreVideos() {
               background: '#000',
               borderRadius: 16,
               display: 'flex',
-              flexDirection: 'column',
+              flexDirection: 'row',
               alignItems: 'center',
               justifyContent: 'center'
             }}
           >
+            {/* Close button at the top right */}
             <button
               onClick={() => setModalVideo(null)}
               style={{
@@ -286,20 +350,137 @@ function ExploreVideos() {
             >
               ×
             </button>
-            <iframe
-              key={getYouTubeId(modalVideo.video_url)}
-              width="100%"
-              height="100%"
-              src={`https://www.youtube.com/embed/${getYouTubeId(modalVideo.video_url)}?autoplay=1&mute=0&playsinline=1`}
-              title={modalVideo.title || 'Video'}
-              frameBorder="0"
-              allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              style={{ width: '100%', height: '100%', borderRadius: 16 }}
-            />
-            <div style={{ position: 'absolute', bottom: 24, left: 0, width: '100%', textAlign: 'center', color: '#fff', background: 'rgba(0,0,0,0.4)', padding: 16 }}>
-              <h3 style={{ margin: 0, fontSize: 24 }}>{modalVideo.title}</h3>
-              <p style={{ margin: '8px 0 0', fontSize: 17 }}>{modalVideo.description}</p>
+            {/* Video area */}
+            <div style={{ flex: 1, height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
+              <iframe
+                key={getYouTubeId(modalVideo.video_url)}
+                width="100%"
+                height="100%"
+                src={`https://www.youtube.com/embed/${getYouTubeId(modalVideo.video_url)}?autoplay=1&mute=0&playsinline=1`}
+                title={modalVideo.title || 'Video'}
+                frameBorder="0"
+                allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{ width: '100%', height: '100%', borderRadius: 16 }}
+              />
+              <div style={{ position: 'absolute', bottom: 24, left: 0, width: '100%', textAlign: 'center', color: '#fff', background: 'rgba(0,0,0,0.4)', padding: 16 }}>
+                <h3
+                  style={{
+                    margin: 0,
+                    fontSize: 24,
+                    // Add a grid pattern overlay with a bottom-to-top dark-to-light gradient
+                    background: `
+                      repeating-linear-gradient(
+                        45deg,
+                        rgba(255,255,255,0.04) 0px,
+                        rgba(255,255,255,0.04) 8px,
+                        transparent 8px,
+                        transparent 16px
+                      ),
+                      linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(40,40,40,0.45) 60%, rgba(255,255,255,0.01) 100%)
+                    `,
+                    color: '#fff',
+                    borderRadius: 12,
+                    boxShadow: '0 2px 8px #6C63FF22',
+                    display: 'inline-block',
+                    padding: '10px 24px'
+                  }}
+                >
+                  {modalVideo.title}
+                </h3>
+              </div>
+            </div>
+            {/* Vertical buttons on right */}
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 28,
+              marginLeft: 32,
+              minWidth: 0
+            }}>
+              {/* Like button */}
+              <button
+                onClick={() =>
+                  likedVideos.some(v => v.id === modalVideo.id)
+                    ? handleUnlike(modalVideo)
+                    : handleLike(modalVideo)
+                }
+                style={{
+                  background: likedVideos.some(v => v.id === modalVideo.id) ? '#e0245e' : '#fff',
+                  color: likedVideos.some(v => v.id === modalVideo.id) ? '#fff' : '#e0245e',
+                  border: '2px solid #e0245e',
+                  borderRadius: '50%',
+                  width: 56,
+                  height: 56,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: 28,
+                  cursor: 'pointer',
+                  boxShadow: '0 2px 8px #e0245e22',
+                  transition: 'all 0.15s'
+                }}
+                title="Like"
+              >
+                {likedVideos.some(v => v.id === modalVideo.id) ? '❤️' : '🤍'}
+              </button>
+              {/* Save button */}
+              <button
+                onClick={() =>
+                  savedVideos.some(v => v.id === modalVideo.id)
+                    ? handleUnsave(modalVideo)
+                    : handleSave(modalVideo)
+                }
+                style={{
+                  background: savedVideos.some(v => v.id === modalVideo.id) ? '#7c5cff' : '#fff',
+                  color: savedVideos.some(v => v.id === modalVideo.id) ? '#fff' : '#7c5cff',
+                  border: savedVideos.some(v => v.id === modalVideo.id) ? 'none' : '2px solid #7c5cff',
+                  borderRadius: '50%',
+                  width: 56,
+                  height: 56,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: 28,
+                  cursor: 'pointer',
+                  boxShadow: '0 2px 8px #7c5cff33',
+                  transition: 'all 0.15s'
+                }}
+                title="Save"
+              >
+                {savedVideos.some(v => v.id === modalVideo.id) ? '🔖' : '📑'}
+              </button>
+              {/* Skip button: show next video in filteredVideos */}
+              <button
+                onClick={() => {
+                  const idx = filteredVideos.findIndex(v => v.id === modalVideo.id);
+                  if (idx >= 0 && idx < filteredVideos.length - 1) {
+                    setModalVideo(filteredVideos[idx + 1]);
+                  } else {
+                    setModalVideo(null);
+                  }
+                }}
+                style={{
+                  background: '#fff',
+                  color: '#7c5cff',
+                  border: '2px solid #7c5cff',
+                  borderRadius: '50%',
+                  width: 56,
+                  height: 56,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: 28,
+                  cursor: 'pointer',
+                  boxShadow: '0 2px 8px #7c5cff22',
+                  transition: 'all 0.15s'
+                }}
+                title="Skip"
+              >
+                ➡️
+              </button>
             </div>
           </div>
         </div>

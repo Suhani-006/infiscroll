@@ -23,6 +23,15 @@ export const storage = getStorage(app);
 export const googleProvider = new GoogleAuthProvider();
 
 function Login({ redirectTo = "/" }) {
+  // Force theme to light on login page
+  React.useEffect(() => {
+    localStorage.setItem('theme-dark', 'false');
+    document.body.classList.add('light-theme');
+    document.body.classList.remove('dark-theme');
+    document.body.style.background = '#fff';
+    document.body.style.color = '#222';
+  }, []);
+
   const navigate = useNavigate();
   const location = useLocation();
   const [avatar, setAvatar] = React.useState(null);
