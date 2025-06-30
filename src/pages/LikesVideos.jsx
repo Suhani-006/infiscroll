@@ -75,7 +75,7 @@ function LikedVideos() {
                     }}
                     onClick={() => setModalVideo(video)}
                   >
-                    <div style={{ width: '100%', position: 'relative', paddingTop: '30%' }}>
+                    <div style={{ width: '100%', position: 'relative', paddingTop: '50%' }}>
                       <iframe
                         src={`https://www.youtube.com/embed/${ytId}?autoplay=0&mute=1&playsinline=1`}
                         title={video.title}
@@ -92,7 +92,7 @@ function LikedVideos() {
                       />
                     </div>
                     <div style={{ padding: '20px 18px 16px', width: '100%' }}>
-                      <h3 style={{ margin: 0, fontSize: 20, fontWeight: 600 }}>{video.title}</h3>
+                      <h3 style={{ margin: 0, fontSize: 20, fontWeight: 400 }}>{video.title}</h3>
                     </div>
                   </div>
                 );

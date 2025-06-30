@@ -73,7 +73,12 @@ function ExploreVideos() {
     if (selectedCategory === 'All') {
       setFilteredVideos(videos);
     } else {
-      const filtered = videos.filter(v => v.category === selectedCategory);
+      // Match category by tag (case-insensitive, ignore spaces and &)
+      const normalized = selectedCategory.replace(/ & /g, '_').replace(/\s+/g, '_').toLowerCase();
+      const filtered = videos.filter(v => {
+        const tag = (v.tag || v.category || '').replace(/ & /g, '_').replace(/\s+/g, '_').toLowerCase();
+        return tag === normalized;
+      });
       setFilteredVideos(filtered);
     }
   }, [selectedCategory, videos]);
@@ -89,9 +94,9 @@ function ExploreVideos() {
         !loadingMore
       ) {
         setLoadingMore(true);
-        // Simulate loading more data (repeat the same data for demo)
+        // Repeat the filteredVideos (not just all videos) for infinite scroll
         setTimeout(() => {
-          setVideos(prev => [...prev, ...prev]);
+          setVideos(prev => [...prev, ...filteredVideos]);
           setLoadingMore(false);
         }, 800);
       }
@@ -99,7 +104,7 @@ function ExploreVideos() {
 
     grid.addEventListener('scroll', handleScroll);
     return () => grid.removeEventListener('scroll', handleScroll);
-  }, [loadingMore]);
+  }, [loadingMore, filteredVideos]);
 
   // Like handler: Save liked video to localStorage
   function handleLike(video) {
@@ -243,7 +248,7 @@ function ExploreVideos() {
                     <div style={{
                       width: '100%',
                       position: 'relative',
-                      paddingTop: '30%' // reduced aspect ratio for less height
+                      paddingTop: '70%' // reduced aspect ratio for less height
                     }}>
                       <iframe
                         width="100%"

@@ -82,7 +82,7 @@ function SavedVideos() {
                     <div style={{
                       width: '100%',
                       position: 'relative',
-                      paddingTop: '80%'
+                      paddingTop: '50%'
                     }}>
                       <iframe
                         width="100%"

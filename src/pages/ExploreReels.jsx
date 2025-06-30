@@ -95,10 +95,11 @@ function ExploreReels() {
       setReels(allReels);
       setCurrentIdx(0);
     } else {
-      const normalized = selectedCategory
-        .replace(/ & /g, '_')
-        .replace(/\s+/g, '_')
-        .toLowerCase();
+      // Special case for Health & Fitness to match health_and_fitness tag
+      let normalized = selectedCategory.replace(/ & /g, '_').replace(/\s+/g, '_').toLowerCase();
+      if (normalized === 'health__fitness' || normalized === 'health&_fitness' || normalized === 'health_fitness') {
+        normalized = 'health_and_fitness';
+      }
       const filtered = allReels.filter(r => {
         const tag = (r.tag || r.category || '').replace(/ & /g, '_').replace(/\s+/g, '_').toLowerCase();
         return tag === normalized;
@@ -355,20 +356,20 @@ function ExploreReels() {
 
                   {/* Bottom-left Overlay: Title + Description + Audio + Profile */}
                   <div style={{
+                    
                     position: 'absolute',
-                    bottom: '1.5rem',
-                    left: '1.5rem',
-                    maxWidth: '65vw',
+                    bottom: '0rem',
+                    left: '0rem',
+                    width: '100vw',
                     display: 'flex',
                     flexDirection: 'column',
                     gap: 0,
                     zIndex: 10,
-                    borderRadius: 14,
+                    borderRadius: 0,
                     overflow: 'hidden',
-                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.01) 0%, rgba(40,40,40,0.45) 40%, rgba(0,0,0,0.92) 100%)',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(40,40,40,0.35) 40%, rgba(0,0,0,0.70) 100%)',
                     // boxShadow: '0 4px 24px #0005'
                   }}>
-                    background:'line'
                     {/* Title */}
                     <div style={{
                       display: 'flex',
@@ -379,7 +380,7 @@ function ExploreReels() {
                       color: '#181818',
                       padding: '10px 18px 6px 18px',
                       background: 'transparent',
-                      boxShadow: 'none'
+                      boxShadow: 'none',
                     }}>
                       {currentReel?.title}
                     </div>
