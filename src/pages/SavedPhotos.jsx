@@ -16,7 +16,7 @@ function getSavedPhotosFromStorage() {
 // Utility to get liked photos from localStorage
 function getLikedPhotosFromStorage() {
   try {
-    const data = localStorage.getItem('savedPhotos');
+    const data = localStorage.getItem('likedPhotos');
     return data ? JSON.parse(data) : [];
   } catch {
     return [];
@@ -68,6 +68,7 @@ function handleUnlike(photo) {
   useEffect(() => {
     const savedPhotos = getSavedPhotosFromStorage();
     setPhotos(savedPhotos);
+    setPage(1);
   }, []);
 
   useEffect(() => {
@@ -77,14 +78,15 @@ function handleUnlike(photo) {
     }
   }, [modalPhoto]);
 
-  // Infinite scroll: (optional, repeat saved photos for demo)
+  // Infinite scroll: repeat saved photos when at the end
   useEffect(() => {
     if (page === 1) return;
     const savedPhotos = getSavedPhotosFromStorage();
-    // For demo, repeat saved photos with new ids
+    if (savedPhotos.length === 0) return;
+    // Repeat saved photos with new ids for each scroll
     const mapped = savedPhotos.map(photo => ({
       ...photo,
-      id: `${photo.id}-page${page}-${Math.random()}`
+      id: `${photo.id}-repeat-${page}-${Math.random()}`
     }));
     setPhotos(prev => [...prev, ...mapped]);
   }, [page]);

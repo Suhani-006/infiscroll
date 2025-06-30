@@ -7,7 +7,6 @@ function getYouTubeId(url) {
   return match ? match[1] : null;
 }
 
-// Get saved videos from localStorage
 function getSavedVideosFromStorage() {
   try {
     const data = localStorage.getItem('savedVideos');
@@ -34,7 +33,6 @@ function SavedVideos() {
           style={{
             position: 'fixed',
             top: 50,
-            alignSelf: 'flex-start',
             height: '100vh',
             zIndex: 20,
             width: 240,
@@ -43,9 +41,8 @@ function SavedVideos() {
         >
           <Sidebar />
         </div>
-
-        <div style={{ flex: 1, padding: '0 0', display: 'flex', flexDirection: 'column', alignItems: 'center', marginLeft: "280px" }}>
-          <main style={{ maxWidth: 1300, width: '100%', padding: '0 0px', margin:"16px 16px" }}>
+        <div style={{ flex: 1, marginLeft: 280, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <main style={{ maxWidth: 1300, width: '100%', margin: '16px 16px' }}>
             <div
               ref={gridRef}
               style={{
@@ -53,10 +50,8 @@ function SavedVideos() {
                 display: 'grid',
                 gridTemplateColumns: 'repeat(4, 1fr)',
                 gap: '32px',
-                background: 'transparent',
-                padding: '0',
-                maxHeight: 'calc(100vh - 120px)',
-                overflowY: 'auto'
+                overflowY: 'auto',
+                maxHeight: 'calc(100vh - 120px)'
               }}
             >
               {videos.map((video, idx) => {
@@ -79,17 +74,10 @@ function SavedVideos() {
                     }}
                     onClick={() => setModalVideo(video)}
                   >
-                    <div style={{
-                      width: '100%',
-                      position: 'relative',
-                      paddingTop: '50%'
-                    }}>
+                    <div style={{ width: '100%', position: 'relative', paddingTop: '50%' }}>
                       <iframe
-                        width="100%"
-                        height="100%"
                         src={`https://www.youtube.com/embed/${ytId}?autoplay=0&mute=1&playsinline=1`}
-                        title={video.title || 'Video'}
-                        frameBorder="0"
+                        title={video.title}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                         style={{
@@ -102,7 +90,7 @@ function SavedVideos() {
                         }}
                       />
                     </div>
-                  <div style={{ padding: '2px 1px 1px', width: '100%' }}>
+                    <div style={{ padding: '2px 1px 1px', width: '100%' }}>
                       <h3 style={{
                         margin: 0,
                         fontSize: 15,
@@ -115,7 +103,9 @@ function SavedVideos() {
                         textAlign: 'center',
                         display: 'inline-block',
                         bottom: 0
-                      }}>{video.title}</h3>
+                      }}>
+                        {video.title}
+                      </h3>
                     </div>
                   </div>
                 );
@@ -125,6 +115,7 @@ function SavedVideos() {
         </div>
       </div>
 
+      {/* Modal */}
       {modalVideo && (
         <div
           onClick={() => setModalVideo(null)}
@@ -146,10 +137,10 @@ function SavedVideos() {
               position: 'relative',
               maxWidth: '90vw',
               maxHeight: '90vh',
-              width: '60vw',
-              height: '75vh',
+              width: 'auto',
+              height: 'auto',
               display: 'flex',
-              flexDirection: 'column',
+              flexDirection: 'row',
               background: 'rgba(0,0,0,0.01)',
               borderRadius: 16,
               boxShadow: '0 8px 32px #000a',
@@ -158,47 +149,28 @@ function SavedVideos() {
             }}
             onClick={e => e.stopPropagation()}
           >
-            {/* Modal content: Title bar (12%) and Video (88%) */}
-            <div style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              height: '100%',
-              width: '100%',
-              flex: 1
-            }}>
-              {/* Title bar (12%) */}
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
               <div style={{
                 color: '#fff',
-                fontWeight: 400, // non-bold
+                fontWeight: 400,
                 fontSize: 22,
                 textAlign: 'center',
-                padding: '12px 24px 8px 24px',
-                background: 'rgba(0,0,0,0.18)',
+                padding: '16px 24px 8px 24px',
+                background: 'rgba(0,0,0,0.45)',
                 borderTopLeftRadius: 16,
                 borderTopRightRadius: 16,
-                width: '100%',
-                maxWidth: '100%',
-                height: '12%',
-                boxSizing: 'border-box',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
+                width: '50vw',
+                maxWidth: '50vw'
               }}>
                 {modalVideo.title}
               </div>
-              {/* Video (88%) */}
               <div
                 style={{
                   width: '100%',
-                  height: '88%',
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
-                  background: 'rgba(0,0,0,0.01)',
-                  borderBottomLeftRadius: 16,
-                  borderBottomRightRadius: 16,
-                  overflow: 'hidden'
+                  background: 'rgba(0,0,0,0.01)'
                 }}
               >
                 <iframe
@@ -211,8 +183,10 @@ function SavedVideos() {
                   allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   style={{
-                    width: '100%',
-                    height: '100%',
+                    width: '50vw',
+                    height: '28vw',
+                    maxWidth: '50vw',
+                    maxHeight: '60vh',
                     borderRadius: 0,
                     display: 'block',
                     margin: '0 auto',
@@ -221,8 +195,19 @@ function SavedVideos() {
                   }}
                 />
               </div>
+              <div style={{
+                color: '#fff',
+                fontSize: 16,
+                textAlign: 'center',
+                padding: '12px 24px 18px 24px',
+                background: 'rgba(0,0,0,0.45)',
+                borderBottomLeftRadius: 16,
+                borderBottomRightRadius: 16,
+                width: '50vw',
+                maxWidth: '50vw'
+              }}>
+              </div>
             </div>
-            {/* Close button in top right corner */}
             <button
               onClick={() => setModalVideo(null)}
               style={{

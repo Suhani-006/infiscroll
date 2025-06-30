@@ -126,7 +126,7 @@ function ExplorePhotos() {
         const mapped = data
           .filter(photo => photo.image_url)
           .map(photo => ({
-            id: `${photo.id || photo.image_url}-page${page}-${Math.random()}`,
+            id: `${photo.id || photo.image_url}-page${page}`,
             url: photo.image_url,
             title: photo.title || '',
             caption: photo.description || '',
