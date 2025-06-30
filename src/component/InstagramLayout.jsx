@@ -16,14 +16,31 @@ function InstagramLayout() {
     }
   }, []);
 
+  const [feedKeys, setFeedKeys] = React.useState([0]);
+  const feedContainerRef = React.useRef(null);
+
+  // Endless scroll: append another Feed when at the bottom
+  React.useEffect(() => {
+    const container = feedContainerRef.current;
+    if (!container) return;
+    const handleScroll = () => {
+      if (
+        container.scrollTop + container.clientHeight >= container.scrollHeight - 40
+      ) {
+        setFeedKeys(prev => [...prev, prev.length]);
+      }
+    };
+    container.addEventListener('scroll', handleScroll);
+    return () => container.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div
       style={{
         minHeight: '100vh',
         background:  'linear-gradient(90deg, #a259ff 0%, #f24e1e 100%)',
-            backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
         '--sidebar-width': sidebarWidth,
         '--suggestions-width': suggestionsWidth,
         '--mobile-sidebar-height': mobileSidebarHeight,
@@ -61,19 +78,25 @@ function InstagramLayout() {
 
         {/* Feed */}
         <main
-  className="insta-feed"
-  style={{
-    flex: 1,
-    minWidth: 0,
-    marginLeft: 'var(--sidebar-width)',
-    padding: '20px 30px',
-    transition: 'margin 0.3s ease',
-        background:  'linear-gradient(90deg,rgba(161, 89, 255, 0.18) 0%,rgba(242, 79, 30, 0.24) 100%)',
-    borderRadius: 12, // optional for card-style look
-    backdropFilter: 'blur(6px)', // optional blur
-  }}
->
-          <Feed selectedCategories={selectedCategories} />
+          className="insta-feed"
+          ref={feedContainerRef}
+          style={{
+            flex: 1,
+            minWidth: 0,
+            marginLeft: 'var(--sidebar-width)',
+            padding: '20px 30px',
+            transition: 'margin 0.3s ease',
+            background:  'linear-gradient(90deg,rgba(161, 89, 255, 0.18) 0%,rgba(242, 79, 30, 0.24) 100%)',
+            borderRadius: 12,
+            backdropFilter: 'blur(6px)',
+            overflowY: 'auto',
+            maxHeight: 'calc(100vh - 62px)',
+            position: 'relative'
+          }}
+        >
+          {feedKeys.map(key => (
+            <Feed key={key} selectedCategories={selectedCategories} />
+          ))}
         </main>
       </div>
 
