@@ -290,14 +290,17 @@ function ExploreReels() {
               margin: 0,
               height: '100vh',
               overflow: 'hidden',
-              backgroundColor: '#fafbfc' // whitish for main area
+              backgroundColor: '#fafbfc', // whitish for main area
+              marginLeft: '2px',
+              marginBottom:'2px',
+              marginRight:'2px' // account for sidebar width
             }}
           >
             <div
               id="reel-scroll-container"
               style={{
                 flex: 1,
-                width: '100%',
+                width: '80vw',
                 overflowY: 'auto',
                 overflowX: 'hidden',
                 scrollSnapType: 'y mandatory',
@@ -360,14 +363,14 @@ function ExploreReels() {
                     position: 'absolute',
                     bottom: '0rem',
                     left: '0rem',
-                    width: '100vw',
+                    width: '100%',
                     display: 'flex',
                     flexDirection: 'column',
                     gap: 0,
                     zIndex: 10,
                     borderRadius: 0,
                     overflow: 'hidden',
-                    background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(40,40,40,0.35) 40%, rgba(0,0,0,0.70) 100%)',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(40,40,40,0.25) 60%, rgba(0,0,0,0.70) 100%)',
                     // boxShadow: '0 4px 24px #0005'
                   }}>
                     {/* Title */}
