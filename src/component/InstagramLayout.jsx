@@ -4,12 +4,10 @@ import Sidebar from './Sidebar';
 import Feed from './Feed';
 
 function InstagramLayout() {
-  const sidebarWidth = '240px';
-  const sidebarCollapsedWidth = '60px';
+  const sidebarWidth = '270px';
   const suggestionsWidth = '320px';
   const mobileSidebarHeight = '56px';
 
-  // Get selected categories from localStorage
   const selectedCategories = React.useMemo(() => {
     try {
       return JSON.parse(localStorage.getItem('selectedCategories')) || [];
@@ -24,51 +22,73 @@ function InstagramLayout() {
         minHeight: '100vh',
         background: '#fafafa',
         '--sidebar-width': sidebarWidth,
-        '--sidebar-collapsed-width': sidebarCollapsedWidth,
         '--suggestions-width': suggestionsWidth,
         '--mobile-sidebar-height': mobileSidebarHeight,
       }}
     >
+      {/* Header */}
       <Header />
 
-      <div className="insta-layout-main" style={{
-        display: 'flex',
-        background: '#fafafa',
-        overflow: 'auto',
-      }}>
+      <div
+        className="insta-layout-main"
+        style={{
+          display: 'flex',
+          background: '#fafafa',
+          overflow: 'hidden',
+        }}
+      >
         {/* Sidebar */}
-        <div className="insta-sidebar" style={{
-          width: 'var(--sidebar-width)',
-          minWidth: 'var(--sidebar-width)',
-          maxWidth: 'var(--sidebar-width)',
-        }}>
+        <aside
+          className="insta-sidebar"
+          style={{
+            width: 'var(--sidebar-width)',
+            minWidth: 'var(--sidebar-width)',
+            maxWidth: 'var(--sidebar-width)',
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            bottom: 0,
+            backgroundColor: '#fff',
+            zIndex: 100,
+            transition: 'all 0.3s ease',
+          }}
+        >
           <Sidebar />
-        </div>
+        </aside>
 
         {/* Feed */}
-        <div className="insta-feed" style={{
-          flex: 1,
-          minWidth: 0,
-        }}>
+        <main
+          className="insta-feed"
+          style={{
+            flex: 1,
+            
+            minWidth: 0,
+            marginLeft: 'var(--sidebar-width)',
+            padding: '20px 30px',
+            transition: 'margin 0.3s ease',
+          }}
+        >
           <Feed selectedCategories={selectedCategories} />
-        </div>
-
-      
+        </main>
       </div>
 
       {/* Responsive Styles */}
       <style>
         {`
-         
-
-          @media (max-width: 600px) {
-           
-            .insta-layout-main {
-              margin: 0;
+          @media (max-width: 900px) {
+            .insta-sidebar {
+              display: none;
             }
 
             .insta-feed {
-              padding-bottom: var(--mobile-sidebar-height); /* Fixed overlapping issue */
+              margin-left: 0 !important;
+              padding: 16px;
+            }
+          }
+
+          @media (max-width: 600px) {
+            .insta-feed {
+              padding-bottom: var(--mobile-sidebar-height);
             }
           }
         `}

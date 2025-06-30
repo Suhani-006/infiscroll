@@ -269,23 +269,21 @@ function ExploreVideos() {
                         }}
                       />
                     </div>
-                    <div style={{ padding: '20px 18px 16px', width: '100%' }}>
-                      <h3
-                        style={{
-                          margin: 0,
-                          fontSize: 20,
-                          color: '#222',
-                          fontWeight: 600,
-                          lineHeight: 1.3,
-                          textAlign: 'center',
-                          background: '#fff',
-                          boxShadow: '0 2px 8px #6C63FF22',
-                          borderRadius: 12,
-                          padding: '8px 0',
-                          width: '100%',
-                          display: 'inline-block'
-                        }}
-                      >
+                    <div style={{ padding: '2px 1px 1px', width: '100%' }}>
+                      <h3 style={{
+                        margin: 0,
+                        fontSize: 20,
+                        fontWeight: 500,
+                        color: 'black',
+                        background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(40,40,40,0.35) 60%, rgba(0,0,0,0.7) 100%)',
+                        borderRadius: 8,
+                        padding: '8px 0',
+                        width: '100%',
+                        textAlign: 'center',
+                        display: 'inline-block',
+                        bottom: 0
+                      }}>
+                      
                         {video.title}
                       </h3>
                       {/* Description removed */}

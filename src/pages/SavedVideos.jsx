@@ -74,7 +74,7 @@ function SavedVideos() {
                       flexDirection: 'column',
                       alignItems: 'center',
                       transition: 'transform 0.15s, box-shadow 0.15s',
-                      minHeight: 200,
+                      minHeight: 180,
                       border: '1px solid #ececec',
                     }}
                     onClick={() => setModalVideo(video)}
@@ -102,8 +102,20 @@ function SavedVideos() {
                         }}
                       />
                     </div>
-                    <div style={{ padding: '20px 18px 16px', width: '100%' }}>
-                      <h3 style={{ margin: 0, fontSize: 20, color: '#222', fontWeight: 400, lineHeight: 1.3 }}>{video.title}</h3>
+                  <div style={{ padding: '2px 1px 1px', width: '100%' }}>
+                      <h3 style={{
+                        margin: 0,
+                        fontSize: 15,
+                        fontWeight: 400,
+                        color: 'black',
+                        background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(40,40,40,0.35) 60%, rgba(0,0,0,0.7) 100%)',
+                        borderRadius: 8,
+                        padding: '8px 0',
+                        width: '100%',
+                        textAlign: 'center',
+                        display: 'inline-block',
+                        bottom: 0
+                      }}>{video.title}</h3>
                     </div>
                   </div>
                 );
